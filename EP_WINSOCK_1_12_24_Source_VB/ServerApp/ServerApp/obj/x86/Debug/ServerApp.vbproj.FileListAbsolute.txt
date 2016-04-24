@@ -1,0 +1,49 @@
+C:\Users\Win7Bas64BaseOS\Desktop\ServerApp\ServerApp\bin\Debug\ServerApp.exe
+C:\Users\Win7Bas64BaseOS\Desktop\ServerApp\ServerApp\bin\Debug\ServerApp.pdb
+C:\Users\Win7Bas64BaseOS\Desktop\ServerApp\ServerApp\bin\Debug\ServerApp.xml
+C:\Users\Win7Bas64BaseOS\Desktop\ServerApp\ServerApp\bin\Debug\EPWinSock.dll
+C:\Users\Win7Bas64BaseOS\Desktop\ServerApp\ServerApp\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Win7Bas64BaseOS\Desktop\ServerApp\ServerApp\obj\x86\Debug\ServerApp.Form1.resources
+C:\Users\Win7Bas64BaseOS\Desktop\ServerApp\ServerApp\obj\x86\Debug\ServerApp.Resources.resources
+C:\Users\Win7Bas64BaseOS\Desktop\ServerApp\ServerApp\obj\x86\Debug\ResGen.read.1.tlog
+C:\Users\Win7Bas64BaseOS\Desktop\ServerApp\ServerApp\obj\x86\Debug\ResGen.write.1.tlog
+C:\Users\Win7Bas64BaseOS\Desktop\ServerApp\ServerApp\obj\x86\Debug\ServerApp.exe
+C:\Users\Win7Bas64BaseOS\Desktop\ServerApp\ServerApp\obj\x86\Debug\ServerApp.xml
+C:\Users\Win7Bas64BaseOS\Desktop\ServerApp\ServerApp\obj\x86\Debug\ServerApp.pdb
+\\Vboxsvr\f_drive\SkyDrive\VB2010\Projs\Class Libraries Projs\Sockets\R7\Sockets\OnlineSamples\R0\ServerApp\ServerApp\obj\x86\Debug\ServerApp.exe
+\\Vboxsvr\f_drive\SkyDrive\VB2010\Projs\Class Libraries Projs\Sockets\R7\Sockets\OnlineSamples\R0\ServerApp\ServerApp\obj\x86\Debug\ServerApp.xml
+\\Vboxsvr\f_drive\SkyDrive\VB2010\Projs\Class Libraries Projs\Sockets\R7\Sockets\OnlineSamples\R0\ServerApp\ServerApp\obj\x86\Debug\ServerApp.pdb
+\\Vboxsvr\f_drive\SkyDrive\VB2010\Projs\Class Libraries Projs\Sockets\R7\Sockets\OnlineSamples\R0\ServerApp\ServerApp\bin\Debug\ServerApp.exe
+\\Vboxsvr\f_drive\SkyDrive\VB2010\Projs\Class Libraries Projs\Sockets\R7\Sockets\OnlineSamples\R0\ServerApp\ServerApp\bin\Debug\ServerApp.pdb
+\\Vboxsvr\f_drive\SkyDrive\VB2010\Projs\Class Libraries Projs\Sockets\R7\Sockets\OnlineSamples\R0\ServerApp\ServerApp\bin\Debug\ServerApp.xml
+\\Vboxsvr\f_drive\SkyDrive\VB2010\Projs\Class Libraries Projs\Sockets\R7\Sockets\OnlineSamples\R0\ServerApp\ServerApp\bin\Debug\EPWinSock.dll
+\\Vboxsvr\f_drive\SkyDrive\VB2010\Projs\Class Libraries Projs\Sockets\R7\Sockets\OnlineSamples\R0\ServerApp\ServerApp\bin\Debug\EPWinSock.xml
+\\Vboxsvr\f_drive\SkyDrive\VB2010\Projs\Class Libraries Projs\Sockets\R7\Sockets\OnlineSamples\R0\ServerApp\ServerApp\obj\x86\Debug\ServerApp.Form1.resources
+\\Vboxsvr\f_drive\SkyDrive\VB2010\Projs\Class Libraries Projs\Sockets\R7\Sockets\OnlineSamples\R0\ServerApp\ServerApp\obj\x86\Debug\ServerApp.Resources.resources
+\\Vboxsvr\f_drive\SkyDrive\VB2010\Projs\Class Libraries Projs\Sockets\R7\Sockets\OnlineSamples\R0\ServerApp\ServerApp\obj\x86\Debug\ServerApp.vbproj.GenerateResource.Cache
+C:\Users\WIN7-HOST5\Desktop\EP_WINSOCK_1_12_24_Source_VB\ServerApp\ServerApp\obj\x86\Debug\ServerApp.exe
+C:\Users\WIN7-HOST5\Desktop\EP_WINSOCK_1_12_24_Source_VB\ServerApp\ServerApp\obj\x86\Debug\ServerApp.xml
+C:\Users\WIN7-HOST5\Desktop\EP_WINSOCK_1_12_24_Source_VB\ServerApp\ServerApp\obj\x86\Debug\ServerApp.pdb
+C:\Users\WIN7-HOST5\Desktop\EP_WINSOCK_1_12_24_Source_VB\ServerApp\ServerApp\obj\x86\Debug\ServerApp.vbprojResolveAssemblyReference.cache
+C:\Users\WIN7-HOST5\Desktop\EP_WINSOCK_1_12_24_Source_VB\ServerApp\ServerApp\obj\x86\Debug\ServerApp.Form1.resources
+C:\Users\WIN7-HOST5\Desktop\EP_WINSOCK_1_12_24_Source_VB\ServerApp\ServerApp\obj\x86\Debug\ServerApp.Resources.resources
+C:\Users\WIN7-HOST5\Desktop\EP_WINSOCK_1_12_24_Source_VB\ServerApp\ServerApp\obj\x86\Debug\ServerApp.vbproj.GenerateResource.Cache
+C:\Users\WIN7-HOST5\Desktop\EP_WINSOCK_1_12_24_Source_VB\ServerApp\ServerApp\bin\Debug\ServerApp.exe.config
+C:\Users\WIN7-HOST5\Desktop\EP_WINSOCK_1_12_24_Source_VB\ServerApp\ServerApp\bin\Debug\ServerApp.exe
+C:\Users\WIN7-HOST5\Desktop\EP_WINSOCK_1_12_24_Source_VB\ServerApp\ServerApp\bin\Debug\ServerApp.pdb
+C:\Users\WIN7-HOST5\Desktop\EP_WINSOCK_1_12_24_Source_VB\ServerApp\ServerApp\bin\Debug\ServerApp.xml
+C:\Users\WIN7-HOST5\Desktop\EP_WINSOCK_1_12_24_Source_VB\ServerApp\ServerApp\bin\Debug\EPWinSock.v4.dll
+C:\Users\WIN7-HOST5\Desktop\EP_WINSOCK_1_12_24_Source_VB\ServerApp\ServerApp\bin\Debug\CODERiT.Logger.v.3.5.dll
+C:\Users\WIN7-HOST5\Desktop\EP_WINSOCK_1_12_24_Source_VB\ServerApp\ServerApp\bin\Debug\EPRO.Library.v4.Shell.dll
+C:\Users\WIN7-HOST5\Desktop\EP_WINSOCK_1_12_24_Source_VB\ServerApp\ServerApp\bin\Debug\EPRO.Library.v3.5.dll
+C:\Users\WIN7-HOST5\Desktop\EP_WINSOCK_1_12_24_Source_VB\ServerApp\ServerApp\bin\Debug\EPRO.Ciphers.v4.Substitutional.dll
+C:\Users\WIN7-HOST5\Desktop\EP_WINSOCK_1_12_24_Source_VB\ServerApp\ServerApp\bin\Debug\EPRO.Library.v3.5.Network.dll
+C:\Users\WIN7-HOST5\Desktop\EP_WINSOCK_1_12_24_Source_VB\ServerApp\ServerApp\bin\Debug\Interop.Shell32.dll
+C:\Users\WIN7-HOST5\Desktop\EP_WINSOCK_1_12_24_Source_VB\ServerApp\ServerApp\bin\Debug\Interop.IWshRuntimeLibrary.dll
+C:\Users\WIN7-HOST5\Desktop\EP_WINSOCK_1_12_24_Source_VB\ServerApp\ServerApp\bin\Debug\EPRO.WaitAsyncMgr.dll
+C:\Users\WIN7-HOST5\Desktop\EP_WINSOCK_1_12_24_Source_VB\ServerApp\ServerApp\bin\Debug\EPWinSock.v4.xml
+C:\Users\WIN7-HOST5\Desktop\EP_WINSOCK_1_12_24_Source_VB\ServerApp\ServerApp\bin\Debug\CODERiT.Logger.v.3.5.xml
+C:\Users\WIN7-HOST5\Desktop\EP_WINSOCK_1_12_24_Source_VB\ServerApp\ServerApp\bin\Debug\EPRO.Library.v4.Shell.xml
+C:\Users\WIN7-HOST5\Desktop\EP_WINSOCK_1_12_24_Source_VB\ServerApp\ServerApp\bin\Debug\EPRO.Library.v3.5.xml
+C:\Users\WIN7-HOST5\Desktop\EP_WINSOCK_1_12_24_Source_VB\ServerApp\ServerApp\bin\Debug\EPRO.Ciphers.v4.Substitutional.xml
+C:\Users\WIN7-HOST5\Desktop\EP_WINSOCK_1_12_24_Source_VB\ServerApp\ServerApp\bin\Debug\EPRO.Library.v3.5.Network.xml

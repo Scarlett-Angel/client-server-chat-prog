@@ -1,0 +1,32 @@
+Hi, Welcome to the walkthrough video on using EPWinsock
+
+The Latest Assembly Version is EPWinsock 1.10.7
+You can get the dll from the link below.
+
+
+The serverapp we will be using already has a List View control.
+
+I will be showing you how to list connected client PC information in this tutorial with few lines of code.
+
+
+The main difference in this Server GUI from the previous demonstration is that I changed the client list control from listbox to listview so we can see other information like IP Address, Mac Address, Operating System
+
+
+The Client GUI remain the same
+
+
+You should check public also if you will be using it on public lan else it will be working locally on your pc. Enable the firewall
+
+Now it is enabled
+
+Lets run the client
+
+The client is connected with its information listed
+
+Thou this was written in VB.NET ..The same is applicable in C#.
+
+Lets disconnect the client.
+
+If you need to ask anything. Feel free to comment below.
+
+Happy coding)

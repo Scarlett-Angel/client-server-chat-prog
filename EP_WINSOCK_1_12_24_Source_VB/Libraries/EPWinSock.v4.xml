@@ -1,0 +1,1064 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+EPWinSock.v4
+</name>
+</assembly>
+<members>
+<member name="P:EPWinSock.v4.DataXchange.Packets.ArrivalPacketArranger.isDevelopingHeader">
+	<summary>
+ Returns True if ReadyPackage is Nothing
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:EPWinSock.v4.DataXchange.Packets.ArrivalPacketArranger.hasPayloadCompletelyArrived">
+	<summary>
+ Confirms Acquired Payload Size is equivalent to the Expected Size
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPWinSock.v4.DataXchange.Packets.ArrivalPacketArranger.ExtractHeaderRemaining(System.Byte[])">
+	<summary>
+ Extract the remaining header bytes and return the remaining bytes
+ </summary>
+	<param name="BytesReceived"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPWinSock.v4.DataXchange.Packets.ArrivalPacketArranger.ExtractPayloadRemaining(System.Byte[])">
+	<summary>
+ Sap out the bytes we need for payload from this bytes
+ </summary>
+	<param name="BytesReceived"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="F:EPWinSock.v4.Utilities.FixedSystemClock.INTERVAL">
+	<summary>
+ Interval in millisecs
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EPWinSock.v4.Utilities.FixedSystemClock">
+	<summary>
+ Create a Fixed System Clock That does  not get affected when user changes the system time
+ </summary>
+	<remarks></remarks>
+</member><member name="M:EPWinSock.v4.DataXchange.StringPackages.UserCommandPackage.#ctor(System.Byte[])">
+	<summary>
+ Extract Minimum Paramets and Paramseperator from Bytes
+ </summary>
+	<param name="__SocketBytes"></param>
+	<remarks></remarks>
+</member><member name="M:EPWinSock.v4.DataXchange.StringPackages.UserCommandPackage.#ctor(System.String,System.String,System.Byte,System.String[])">
+	<summary>
+ For sending
+ </summary>
+	<param name="____MinimumParameters">Minimum no of parameters apart from the command name. Default is 1</param>
+	<remarks></remarks>
+</member><member name="M:EPWinSock.v4.DataXchange.StringPackages.UserCommandPackage.#ctor(System.String,System.String,System.String[])">
+	<summary>
+ For sending
+ </summary>
+	<remarks></remarks>
+</member><member name="M:EPWinSock.v4.DataXchange.StringPackages.UserCommandPackage.#ctor(System.String,EPWinSock.v4.DataXchange.StringPackages.CommandPackage[])">
+	<summary>
+ For sending
+ </summary>
+	<remarks></remarks>
+</member><member name="P:EPWinSock.v4.DataXchange.Packets.Layer2Packet.FRAME.FileName">
+	<summary>
+ Original File Name [name only] received
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:EPWinSock.v4.DataXchange.Packets.Layer2Packet.FRAME.LocalFileStorageFullPath">
+	<summary>
+ Returns the TempFile Full Name Path
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPWinSock.v4.DataXchange.Packets.Layer2Packet.RawSend(System.Byte[],System.Net.Sockets.Socket)">
+	<summary>
+ Send Message Accross Sockets. Threaded
+ </summary>
+	<param name="Sock"></param>
+	<remarks></remarks>
+</member><member name="M:EPWinSock.v4.DataXchange.Packets.Layer2Packet.Send(System.Byte[],EPWinSock.v4.DataXchange.Packets.Layer1Packet.PayLoadDataTypes,System.Boolean)">
+	<summary>
+ Use to send Raw data and String
+ </summary>
+	<param name="__Load"></param>
+	<param name="__LoadType"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPWinSock.v4.DataXchange.Packets.Layer2Packet.Receive(EPWinSock.v4.DataXchange.Packets.Layer1Packet,EPWinSock.v4.BASE.dlgFileSent)">
+	<summary>
+ Returns false only if the packet does not conform with the protocol
+ </summary>
+	<param name="FileReceivingCancelledNotifier"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPWinSock.v4.DataXchange.StringPackages.SocketCommandPackage.#ctor(System.Byte[])">
+	<summary>
+ Extract Minimum Paramets and Paramseperator from Bytes
+ </summary>
+	<param name="__SocketBytes"></param>
+	<remarks></remarks>
+</member><member name="M:EPWinSock.v4.DataXchange.StringPackages.SocketCommandPackage.#ctor(System.String,System.String,System.Byte,System.String[])">
+	<summary>
+ For sending
+ </summary>
+	<remarks></remarks>
+</member><member name="M:EPWinSock.v4.DataXchange.StringPackages.SocketCommandPackage.#ctor(System.String,System.String,System.String[])">
+	<summary>
+ For sending
+ </summary>
+	<remarks></remarks>
+</member><member name="M:EPWinSock.v4.DataXchange.StringPackages.SocketCommandPackage.#ctor(System.String,EPWinSock.v4.DataXchange.StringPackages.CommandPackage[])">
+	<summary>
+ For sending
+ </summary>
+	<remarks></remarks>
+</member><member name="E:EPWinSock.v4.NET.ClientSocket.SocketIDChanged">
+	<summary>
+ Raises when a New ID has been received from Server
+ </summary>
+	<remarks></remarks>
+</member><member name="M:EPWinSock.v4.NET.ClientSocket.Try_SocketIDChanged">
+	<summary>
+ Raises the SocketIDChanged under the Parent Control Thread
+ </summary>
+	<remarks></remarks>
+</member><member name="M:EPWinSock.v4.NET.ClientSocket.Invoke_SocketIDChanged">
+	<summary>
+ The real invoke inner_Call
+ </summary>
+	<remarks></remarks>
+</member><member name="F:EPWinSock.v4.NET.ClientSocket.sckSocketContainer">
+	<summary>
+ I will enclose the sckSocket If am using it for client
+ </summary>
+	<remarks></remarks>
+</member><member name="P:EPWinSock.v4.NET.ClientSocket.ServerIP">
+	<summary>
+ If this is a client .. Then you need the server IP to Connect to Server
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:EPWinSock.v4.NET.ClientSocket.SocketID">
+	<summary>
+ Fetches the Unique ID of this Socket
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:EPWinSock.v4.NET.ClientSocket.isFullyAttached">
+	<summary>
+ Indicates if this socket is connected to server and has received its unique id from server
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:EPWinSock.v4.NET.ClientSocket.SocketDeviceInfo">
+	<summary>
+ Fetches the Full Details of the device this socket is attached to
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPWinSock.v4.NET.ClientSocket.SendMessage(System.String)">
+	<summary>
+ Send a Simple Message over LAN
+ </summary>
+	<param name="Message">Message to send</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPWinSock.v4.NET.ClientSocket.SendCommand(EPWinSock.v4.DataXchange.StringPackages.UserCommandPackage)">
+	<summary>
+ Send a Simple Command
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPWinSock.v4.NET.ClientSocket.SendData(System.Byte[])">
+	<summary>
+ Send a Raw Data
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPWinSock.v4.NET.ClientSocket.SendFile(System.String)">
+	<summary>
+ Send a file to server
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPWinSock.v4.NET.ClientSocket.SendFile">
+	<summary>
+ Use default send file dialog to send file
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPWinSock.v4.NET.ClientSocket.CancelSending">
+	<summary>
+ Cancel current sending operation
+ </summary>
+	<remarks></remarks>
+</member><member name="M:EPWinSock.v4.NET.ClientSocket.Start">
+	<summary>
+ Starts the socket Asynchronously
+ </summary>
+	<remarks></remarks>
+</member><member name="M:EPWinSock.v4.NET.ClientSocket.Stop">
+	<summary>
+ Stops the Socket
+ </summary>
+	<remarks></remarks>
+</member><member name="M:EPWinSock.v4.NET.ClientSocket.DisconnectClient">
+	<summary>
+ Disconnect Client from Server
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPWinSock.v4.NET.ClientSocket.DoConnectToServerResult(System.IAsyncResult)">
+	<summary>
+ The result of the Async Func Begin Connect
+ </summary>
+	<param name="ar"></param>
+	<remarks></remarks>
+</member><member name="M:EPWinSock.v4.NET.ClientSocket.MessageReceivedFromServer(System.IAsyncResult)">
+	<summary>
+ Handles Messages Received From Server
+ </summary>
+	<param name="ar"></param>
+	<remarks></remarks>
+</member><member name="M:EPWinSock.v4.NET.ClientSocket.KeepReceivingMessageFromServer(EPWinSock.v4.NET.ClientSocketWrapper@)">
+	<summary>
+ Keep Receiving Messages From Server
+ </summary>
+	<param name="ClientClass"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPWinSock.v4.NET.ClientSocket.TryConnectingToServer">
+	<summary>
+ Initiate Begin Connect Function
+ </summary>
+	<remarks></remarks>
+</member><member name="M:EPWinSock.v4.DataXchange.Packets.Layer1Packet.#ctor(System.Byte[])">
+	<summary>
+ For receiving
+ </summary>
+	<param name="__bytes"></param>
+	<remarks></remarks>
+</member><member name="M:EPWinSock.v4.DataXchange.Packets.Layer1Packet.#ctor(System.Byte[],System.UInt16,System.UInt16,System.Boolean,EPWinSock.v4.DataXchange.Packets.Layer1Packet.PayLoadDataTypes)">
+	<summary>
+ for sending
+ </summary>
+	<param name="____payload"></param>
+	<param name="____TotalFragmentCount"></param>
+	<param name="____FragmentIndex"></param>
+	<param name="____CancelTransmission"></param>
+	<param name="____PayLoadDataType"></param>
+	<remarks></remarks>
+</member><member name="F:EPWinSock.v4.DataXchange.Packets.Layer1Packet.PayLoadDataTypes.FILE">
+	<summary>
+ Just File Content Description in string
+ </summary>
+	<remarks></remarks>
+</member><member name="F:EPWinSock.v4.DataXchange.Packets.Layer1Packet.PayLoadDataTypes.RAW_DATA">
+	<summary>
+ Binaries
+ </summary>
+	<remarks></remarks>
+</member><member name="F:EPWinSock.v4.DataXchange.Packets.Layer1Packet.PayLoadDataTypes.STRING">
+	<summary>
+ Other strings
+ </summary>
+	<remarks></remarks>
+</member><member name="F:EPWinSock.v4.DataXchange.Packets.Layer1Packet.HEADER_BYTE_SIZE">
+	<summary>
+ The bytes Size of the header in each Layer1 Packet
+ </summary>
+	<remarks></remarks>
+</member><member name="P:EPWinSock.v4.DataXchange.Packets.Layer1Packet.TotalFragmentCount">
+	<summary>
+	</summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:EPWinSock.v4.DataXchange.Packets.Layer1Packet.FragmentIndex">
+	<summary>
+ Zero based
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:EPWinSock.v4.DataXchange.Packets.Layer1Packet.AwaitingPayloadByteSizeRemaining">
+	<summary>
+ Returns the difference in Size of rECEIVED and Expectation
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPWinSock.v4.DataXchange.Packets.Layer1Packet.AccummulatePayload(System.Byte[])">
+	<summary>
+ You must not pass in bytes greater than expected size. It adds to Payload
+ </summary>
+	<param name="__bytes"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPWinSock.v4.DataXchange.Packets.Layer1Packet.isValid">
+	<summary>
+ Returns true if the Headers are well set
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPWinSock.v4.Utilities.FileAccumulator.Save">
+	<summary>
+ Save Received File in your desired location
+ </summary>
+	<remarks></remarks>
+</member><member name="M:EPWinSock.v4.DataXchange.StringPackages.SocketSimplePackage.#ctor(System.String)">
+	<summary>
+ For sending
+ </summary>
+	<param name="_____Content"></param>
+	<remarks></remarks>
+</member><member name="M:EPWinSock.v4.DataXchange.StringPackages.UserSimplePackage.#ctor(System.String)">
+	<summary>
+ For sending
+ </summary>
+	<param name="_____Content"></param>
+	<remarks></remarks>
+</member><member name="F:EPWinSock.v4.NET.ClientSocketWrapper.Disposed">
+	<summary>
+ Indicates if this class is disposed
+ </summary>
+	<remarks></remarks>
+</member><member name="P:EPWinSock.v4.NET.ClientSocketWrapper.isDisposed">
+	<summary>
+ Indicates if this class is disposed
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPWinSock.v4.NET.ClientSocketWrapper.Dispose(System.Boolean)">
+	<summary>
+ Dispose All referenced and unreferenced manage objects
+ </summary>
+	<param name="disposing"></param>
+	<remarks></remarks>
+</member><member name="M:EPWinSock.v4.NET.ClientSocketWrapper.CancelSending">
+	<summary>
+ Cancel current sending operation
+ </summary>
+	<remarks></remarks>
+</member><member name="M:EPWinSock.v4.NET.ClientSocketWrapper.NotifyReceived(System.UInt16,EPWinSock.v4.BASE.dlgFileSent)">
+	<summary>
+ Returns false only if protocol is bridged
+ </summary>
+	<param name="ByteSizeReceived"></param>
+	<param name="FileReceivingCancelledNotifier"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPWinSock.v4.NET.ClientSocketWrapper.CleanBucketReceiver">
+	<summary>
+ Private Dispose and recreate the bucket receiver
+ </summary>
+	<remarks></remarks>
+</member><member name="F:EPWinSock.v4.NET.ClientSocketWrapper.___ClientSocket">
+	<summary>
+ Socket Information We are Transferring. Also I will use this to access client list on ClientsSockets Collection
+ </summary>
+	<remarks></remarks>
+</member><member name="P:EPWinSock.v4.NET.ClientSocketWrapper.Maximum_Buffer_Size">
+	<summary>
+ Maximum Size of data to send on the Socket Layer Per Time
+ </summary>
+	<remarks></remarks>
+</member><member name="F:EPWinSock.v4.NET.ClientSocketWrapper.SocketBucketReceiver">
+	<summary>
+ Biggest space to Just use to receive directly from socket
+ </summary>
+	<remarks></remarks>
+</member><member name="P:EPWinSock.v4.NET.ClientSocketWrapper.SocketKey">
+	<summary>
+ Unique Key to Access this Client
+ </summary>
+	<remarks></remarks>
+</member><member name="P:EPWinSock.v4.NET.ClientSocketWrapper.CanSendData">
+	<summary>
+ Indicate if this class is still ok to send data. Mainly checking the socket only
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="F:EPWinSock.v4.NET.ClientSocketWrapper.SocketActivityMonitor.MINIMUM_TIME_OUT">
+	<summary>
+ Minimum Timeout setting  10secs
+ </summary>
+	<remarks></remarks>
+</member><member name="F:EPWinSock.v4.NET.ClientSocketWrapper.SocketActivityMonitor.QUERY__ALIVE__TIME">
+	<summary>
+ Time to start sending am alive packet
+ </summary>
+	<remarks></remarks>
+</member><member name="F:EPWinSock.v4.NET.ClientSocketWrapper.SocketActivityMonitor.CHECKER__INTERVAL">
+	<summary>
+ REM Time for checker to keep running 2secs
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EPWinSock.v4.NET.ClientSocketWrapper">
+	<summary>
+ Encase the client socket so we can extend it and have more functions without extending the socket itself
+ </summary>
+	<remarks></remarks>
+</member><member name="P:EPWinSock.v4.DataXchange.StringPackages.ISimplePackage.getContent">
+	<summary>
+ Fetch the String Content only of this package without Indentifier
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:EPWinSock.v4.DataXchange.StringPackages.ISimplePackage.getBytes">
+	<summary>
+ Return Whole package with indentifier and UTF8 encoded bytes
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:EPWinSock.v4.DataXchange.StringPackages.ISimplePackage.PackageIdentifierName">
+	<summary>
+ Returns this Class Name
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:EPWinSock.v4.DataXchange.StringPackages.ISimplePackage.getWholeClass">
+	<summary>
+ Returns whole package as string
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="E:EPWinSock.v4.NET.ServerSocket.AClientDisconnected">
+	<summary>
+ Raises when a new client disconnects
+ </summary>
+	<param name="SocketID "></param>
+	<remarks></remarks>
+</member><member name="M:EPWinSock.v4.NET.ServerSocket.Try_AClientDisConnected(System.Int32)">
+	<summary>
+ Raises the AClientDisConnected under the Parent Control Thread
+ </summary>
+	<param name="SocketID "></param>
+	<remarks></remarks>
+</member><member name="M:EPWinSock.v4.NET.ServerSocket.Invoke_AClientDisConnected(System.Int32)">
+	<summary>
+ The real invoke inner_Call
+ </summary>
+	<param name="SocketID"></param>
+	<remarks></remarks>
+</member><member name="E:EPWinSock.v4.NET.ServerSocket.AClientConnected">
+	<summary>
+ Raises when a new client connects
+ </summary>
+	<param name="SocketID "></param>
+	<remarks></remarks>
+</member><member name="M:EPWinSock.v4.NET.ServerSocket.Try_AClientConnected(System.Int32)">
+	<summary>
+ Raises the ClientConnected under the Parent Control Thread
+ </summary>
+	<param name="SocketID "></param>
+	<remarks></remarks>
+</member><member name="M:EPWinSock.v4.NET.ServerSocket.Invoke_AClientConnected(System.Int32)">
+	<summary>
+ The real invoke inner_Call
+ </summary>
+	<param name="SocketID"></param>
+	<remarks></remarks>
+</member><member name="P:EPWinSock.v4.NET.ServerSocket.Maximum_Connection_Allowed">
+	<summary>
+ For now I will keep this private
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="F:EPWinSock.v4.NET.ServerSocket.ClientsOnSever">
+	<summary>
+ Keep the list of Connected Clients for Fast indexing
+ </summary>
+	<remarks></remarks>
+</member><member name="P:EPWinSock.v4.NET.ServerSocket.ConnectedClients">
+	<summary>
+ If this is a server .. then fetch the list of connected clients SocketIDs
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:EPWinSock.v4.NET.ServerSocket.SocketID">
+	<summary>
+ Fetches the Unique ID of this Socket
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPWinSock.v4.NET.ServerSocket.ServerGoOnline">
+	<summary>
+ Make Server Available For Connections
+ </summary>
+	<returns></returns>
+	<remarks>Server Listens on All IPs Available</remarks>
+</member><member name="M:EPWinSock.v4.NET.ServerSocket.ServerKeepAccepting">
+	<summary>
+ Set Server to Keep Accepting Pending Connection Requests
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPWinSock.v4.NET.ServerSocket.ConnectionRequestReceivedFromAClient(System.IAsyncResult)">
+	<summary>
+ Connection Request Received From A Client
+ </summary>
+	<param name="ar">The Server Object [Socket]</param>
+	<remarks>This is on a different thread away from the host</remarks>
+</member><member name="M:EPWinSock.v4.NET.ServerSocket.MessageReceivedFromClient(System.IAsyncResult)">
+	<summary>
+ Stream is received From Client.
+ </summary>
+	<param name="ar"></param>
+	<remarks>This is on a different thread away from the host</remarks>
+</member><member name="M:EPWinSock.v4.NET.ServerSocket.ClientKeepReceivingMessage(EPWinSock.v4.NET.ClientSocketWrapper@)">
+	<summary>
+ Set Client Socket To keep receiving messages
+ </summary>
+	<param name="ClientClass"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPWinSock.v4.NET.ServerSocket.DoClientWentOffline(EPWinSock.v4.NET.ClientSocketWrapper)">
+	<summary>
+ Perform Client Went offline
+ </summary>
+	<param name="ClientReadingClass"></param>
+	<remarks></remarks>
+</member><member name="M:EPWinSock.v4.NET.ServerSocket.DisconnectClient(System.Int32)">
+	<summary>
+ Disconnect the Specified Client
+ </summary>
+	<remarks></remarks>
+</member><member name="M:EPWinSock.v4.NET.ServerSocket.StopServerAbsolutely">
+	<summary>
+ Stops Server and Disconnects all Clients
+ </summary>
+	<remarks></remarks>
+</member><member name="M:EPWinSock.v4.NET.ServerSocket.SendMessage(System.String,System.Int32)">
+	<summary>
+ Send a Simple Message of Maximum 1014 characters over LAN
+ </summary>
+	<param name="Message">Message to send</param>
+	<param name="SocketID">Socket ID to Send to .. It is only neccessary if this component is running in server mode</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPWinSock.v4.NET.ServerSocket.SendCommand(EPWinSock.v4.DataXchange.StringPackages.UserCommandPackage,System.Int32)">
+	<summary>
+ Send a Simple Command
+ </summary>
+	<param name="SocketID">Socket ID to Send to .. It is only neccessary if this component is running in server mode</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPWinSock.v4.NET.ServerSocket.SendData(System.Byte[],System.Int32)">
+	<summary>
+ Send a Raw Data
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPWinSock.v4.NET.ServerSocket.SendFile(System.String,System.Int32)">
+	<summary>
+ Send a file to client
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPWinSock.v4.NET.ServerSocket.getClient(System.Int32)">
+	<summary>
+ Fetch stored client details
+ </summary>
+	<param name="ClientID"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPWinSock.v4.NET.ServerSocket.CancelSending(System.Int32)">
+	<summary>
+ Cancel current sending operation
+ </summary>
+	<remarks></remarks>
+</member><member name="M:EPWinSock.v4.NET.ServerSocket.Start">
+	<summary>
+ Starts the socket Synchronously
+ </summary>
+	<remarks></remarks>
+</member><member name="M:EPWinSock.v4.NET.ServerSocket.Stop">
+	<summary>
+ Stops the Socket
+ </summary>
+	<remarks></remarks>
+</member><member name="P:EPWinSock.v4.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:EPWinSock.v4.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:EPWinSock.v4.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:EPWinSock.v4.DataXchange.StringPackages.CommandPackage.#ctor(System.String,System.String,System.Byte,System.String[])">
+	<summary>
+ For sending
+ </summary>
+	<param name="____MinimumParameters">Minimum no of parameters apart from the command name. Default is 1</param>
+	<remarks></remarks>
+</member><member name="M:EPWinSock.v4.DataXchange.StringPackages.CommandPackage.#ctor(System.String,System.String,System.String[])">
+	<summary>
+ For sending
+ </summary>
+	<remarks></remarks>
+</member><member name="M:EPWinSock.v4.DataXchange.StringPackages.CommandPackage.#ctor(System.String,EPWinSock.v4.DataXchange.StringPackages.CommandPackage[])">
+	<summary>
+ For sending
+ </summary>
+	<remarks></remarks>
+</member><member name="M:EPWinSock.v4.DataXchange.StringPackages.CommandPackage.#ctor(System.Byte[])">
+	<summary>
+ Extract Minimum Paramets and Paramseperator from Bytes
+ </summary>
+	<param name="__SocketBytes"></param>
+	<remarks></remarks>
+</member><member name="F:EPWinSock.v4.DataXchange.StringPackages.CommandPackage.DEFAULT____PARAM___DELIMITER">
+	<summary>
+ It is used to separate the parameters
+ </summary>
+	<remarks></remarks>
+</member><member name="P:EPWinSock.v4.DataXchange.StringPackages.CommandPackage.MinimumParameters">
+	<summary>
+ Minimum no of parameters apart from the command name. Default is 1
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:EPWinSock.v4.DataXchange.StringPackages.CommandPackage.getBytes">
+	<summary>
+ Return Whole package with indentifier and UTF8 encoded bytes
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPWinSock.v4.DataXchange.StringPackages.CommandPackage.IsValid">
+	<summary>
+ Checks if it has any parameters at all
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:EPWinSock.v4.Utilities.PCInfo">
+	<summary>
+ Contains PC Information
+ </summary>
+	<remarks></remarks>
+</member><member name="M:EPWinSock.v4.DataXchange.StringPackages.SimplePackage.#ctor(System.String)">
+	<summary>
+ For sending
+ </summary>
+	<param name="_____Content"></param>
+	<remarks></remarks>
+</member><member name="F:EPWinSock.v4.DataXchange.StringPackages.SimplePackage.PACKAGE__INDENTIFIER___DELIMITER">
+	<summary>
+ It is used to Indentify what type of package is this
+ </summary>
+	<remarks></remarks>
+</member><member name="P:EPWinSock.v4.DataXchange.StringPackages.SimplePackage.getContent">
+	<summary>
+ Fetch the String Content only of this package without Indentifier
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:EPWinSock.v4.DataXchange.StringPackages.SimplePackage.getBytes">
+	<summary>
+ Return Whole package with indentifier and UTF8 encoded bytes
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:EPWinSock.v4.DataXchange.StringPackages.SimplePackage.getWholeClass">
+	<summary>
+ Returns this class data as string
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:EPWinSock.v4.DataXchange.StringPackages.SimplePackage.PackageIdentifierName">
+	<summary>
+ Returns this Class Name
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks>NOT Overridable</remarks>
+</member><member name="M:EPWinSock.v4.BASE.#ctor(System.ComponentModel.IContainer)">
+	<summary>
+ Mainly used by designer
+ </summary>
+	<param name="mContainer">Use to dispose components</param>
+	<remarks></remarks>
+</member><member name="T:EPWinSock.v4.BASE.SocketConnectionState">
+	<summary>
+ Socket Connection States
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EPWinSock.v4.BASE.SocketConnectionProtocol">
+	<summary>
+ Socket Connection Protocol
+ </summary>
+	<remarks></remarks>
+</member><member name="F:EPWinSock.v4.BASE.SocketBufferSize.SMALL">
+	<summary>
+ 1KB
+ </summary>
+	<remarks></remarks>
+</member><member name="F:EPWinSock.v4.BASE.SocketBufferSize.MEDIUM">
+	<summary>
+ 2KB
+ </summary>
+	<remarks></remarks>
+</member><member name="F:EPWinSock.v4.BASE.SocketBufferSize.LARGE">
+	<summary>
+ 4KB
+ </summary>
+	<remarks></remarks>
+</member><member name="F:EPWinSock.v4.BASE.SocketBufferSize.EXTRA_LARGE">
+	<summary>
+ 8KB
+ </summary>
+	<remarks></remarks>
+</member><member name="F:EPWinSock.v4.BASE.SocketBufferSize.EXTREMELY_LARGE">
+	<summary>
+ 16KB
+ </summary>
+	<remarks></remarks>
+</member><member name="F:EPWinSock.v4.BASE.SocketBufferSize.ARE_YOU_KIDDING">
+	<summary>
+ 32KB - 32768 dropped to 32767
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EPWinSock.v4.BASE.SocketBufferSize">
+	<summary>
+ The amount of bytes that should be transfer per packet
+ </summary>
+	<remarks>This depends on the transfer layer. Very Large Packet is not recommended</remarks>
+</member><member name="E:EPWinSock.v4.BASE.CommandReceived">
+	<summary>
+ Raises when Socket receives a simple Command
+ </summary>
+	<param name="SckCommand"></param>
+	<remarks></remarks>
+</member><member name="M:EPWinSock.v4.BASE.Try_CommandReceived(EPWinSock.v4.DataXchange.StringPackages.UserCommandPackage,System.Int32)">
+	<summary>
+ Raises the Command Received under the Parent Control Thread
+ </summary>
+	<param name="SckCommand"></param>
+	<remarks></remarks>
+</member><member name="M:EPWinSock.v4.BASE.Invoke_CommandReceived(EPWinSock.v4.DataXchange.StringPackages.UserCommandPackage,System.Int32)">
+	<summary>
+ The real invoke inner_Call
+ </summary>
+	<param name="SckCommand"></param>
+	<remarks></remarks>
+</member><member name="E:EPWinSock.v4.BASE.DataReceived">
+	<summary>
+ Raises when Socket receives a Data sent through sendData method
+ </summary>
+	<param name="SckData"></param>
+	<remarks></remarks>
+</member><member name="M:EPWinSock.v4.BASE.Try_DataReceived(System.Byte[],System.Int32)">
+	<summary>
+ Raises the Data Received under the Parent Control Thread
+ </summary>
+	<param name="SckData"></param>
+	<remarks></remarks>
+</member><member name="M:EPWinSock.v4.BASE.Invoke_DataReceived(System.Byte[],System.Int32)">
+	<summary>
+ The real invoke inner_Call
+ </summary>
+	<param name="SckData"></param>
+	<remarks></remarks>
+</member><member name="E:EPWinSock.v4.BASE.FileReceived">
+	<summary>
+ Raises when Socket Received File sent through sendFile method
+ </summary>
+	<param name="FileReceived"></param>
+	<remarks></remarks>
+</member><member name="M:EPWinSock.v4.BASE.Try_FileReceived(EPWinSock.v4.Utilities.FileAccumulator,System.Int32)">
+	<summary>
+ Raises the File Received under the Parent Control Thread
+ </summary>
+	<param name="FileReceived"></param>
+	<remarks></remarks>
+</member><member name="M:EPWinSock.v4.BASE.Invoke_FileReceived(EPWinSock.v4.Utilities.FileAccumulator,System.Int32)">
+	<summary>
+ The real invoke inner_Call
+ </summary>
+	<param name="FileReceived"></param>
+	<remarks></remarks>
+</member><member name="E:EPWinSock.v4.BASE.FileSent">
+	<summary>
+ Raises when Socket Completes File sent through sendFile method
+ </summary>
+	<remarks></remarks>
+</member><member name="M:EPWinSock.v4.BASE.Try_FileSent(System.Int32)">
+	<summary>
+ Raises the File Received under the Parent Control Thread
+ </summary>
+	<remarks></remarks>
+</member><member name="M:EPWinSock.v4.BASE.Invoke_FileSent(System.Int32)">
+	<summary>
+ The real invoke inner_Call
+ </summary>
+	<remarks></remarks>
+</member><member name="E:EPWinSock.v4.BASE.SendingCancelled">
+	<summary>
+ Raises when Sending is Cancelled
+ </summary>
+	<remarks></remarks>
+</member><member name="M:EPWinSock.v4.BASE.Try_SendingCancelled(System.Int32)">
+	<summary>
+ Raises the Sending Cancelled under the Parent Control Thread
+ </summary>
+	<remarks></remarks>
+</member><member name="M:EPWinSock.v4.BASE.Invoke_SendingCancelled(System.Int32)">
+	<summary>
+ The real invoke inner_Call
+ </summary>
+	<remarks></remarks>
+</member><member name="E:EPWinSock.v4.BASE.ReceivingCancelled">
+	<summary>
+ Raises when Receiving is Cancelled
+ </summary>
+	<remarks></remarks>
+</member><member name="M:EPWinSock.v4.BASE.Try_ReceivingCancelled(System.Int32)">
+	<summary>
+ Raises the Receiving Cancelled under the Parent Control Thread
+ </summary>
+	<remarks></remarks>
+</member><member name="M:EPWinSock.v4.BASE.Invoke_ReceivingCancelled(System.Int32)">
+	<summary>
+ The real invoke inner_Call
+ </summary>
+	<remarks></remarks>
+</member><member name="E:EPWinSock.v4.BASE.ReceiveFileTransferProgress">
+	<summary>
+ Raises when Socket receiving a file transmission
+ </summary>
+	<remarks></remarks>
+</member><member name="M:EPWinSock.v4.BASE.Try_ReceiveFileTransferProgress(System.String,System.Int32,System.Int32,System.Int32)">
+	<summary>
+ Raises the File transfer progress under the Parent Control Thread
+ </summary>
+	<remarks></remarks>
+</member><member name="M:EPWinSock.v4.BASE.Invoke_ReceiveFileTransferProgress(System.String,System.Int32,System.Int32,System.Int32)">
+	<summary>
+ The real invoke inner_Call
+ </summary>
+	<remarks></remarks>
+</member><member name="E:EPWinSock.v4.BASE.SendFileTransferProgress">
+	<summary>
+ Raises when Socket receiving a file transmission
+ </summary>
+	<remarks></remarks>
+</member><member name="M:EPWinSock.v4.BASE.Try_SendFileTransferProgress(System.String,System.Int32,System.Int32,System.Int32)">
+	<summary>
+ Raises the File transfer progress under the Parent Control Thread
+ </summary>
+	<remarks></remarks>
+</member><member name="M:EPWinSock.v4.BASE.Invoke_SendFileTransferProgress(System.String,System.Int32,System.Int32,System.Int32)">
+	<summary>
+ The real invoke inner_Call
+ </summary>
+	<remarks></remarks>
+</member><member name="E:EPWinSock.v4.BASE.MessageReceived">
+	<summary>
+ Raises when Socket receives a simple message
+ </summary>
+	<param name="SckMessage"></param>
+	<remarks></remarks>
+</member><member name="M:EPWinSock.v4.BASE.Try_MessageReceived(System.String,System.Int32)">
+	<summary>
+ Raises the Message Received under the Parent Control Thread
+ </summary>
+	<param name="SckMessage"></param>
+	<remarks></remarks>
+</member><member name="M:EPWinSock.v4.BASE.Invoke_MessageReceived(System.String,System.Int32)">
+	<summary>
+ The real invoke inner_Call
+ </summary>
+	<param name="SckMessage"></param>
+	<remarks></remarks>
+</member><member name="E:EPWinSock.v4.BASE.SocketErrorMessage">
+	<summary>
+ Raises when there is an error
+ </summary>
+	<param name="SckMessage"></param>
+	<remarks></remarks>
+</member><member name="M:EPWinSock.v4.BASE.Try_SocketErrorMessage(System.String)">
+	<summary>
+ Raises the Socket Error Message under the Parent Control Thread
+ </summary>
+	<param name="SckMessage"></param>
+	<remarks></remarks>
+</member><member name="M:EPWinSock.v4.BASE.Invoke_SocketErrorMessage(System.String)">
+	<summary>
+ The real invoke inner_Call
+ </summary>
+	<param name="SckMessage"></param>
+	<remarks></remarks>
+</member><member name="E:EPWinSock.v4.BASE.SocketStateChanged">
+	<summary>
+ Raised when the state of this socket changes
+ </summary>
+	<param name="CurrentState"></param>
+	<param name="DebugMessage"></param>
+	<remarks></remarks>
+</member><member name="M:EPWinSock.v4.BASE.Try_SocketStateChanged(EPWinSock.v4.BASE.SocketConnectionState,System.String)">
+	<summary>
+ Raises the SocketStateChanged under the Parent Control Thread
+ </summary>
+	<remarks></remarks>
+</member><member name="M:EPWinSock.v4.BASE.Invoke_SocketStateChanged(EPWinSock.v4.BASE.SocketConnectionState,System.String)">
+	<summary>
+ The real invoke inner_Call
+ </summary>
+	<remarks>Only call by invoking</remarks>
+</member><member name="E:EPWinSock.v4.BASE.SocketLogMessage">
+	<summary>
+ Raises event log messages
+ </summary>
+	<param name="sckLog"></param>
+	<remarks></remarks>
+</member><member name="M:EPWinSock.v4.BASE.Try_SocketLogMessage(System.String)">
+	<summary>
+ Raises the SocketLogMessage under the Parent Control Thread
+ </summary>
+	<remarks></remarks>
+</member><member name="M:EPWinSock.v4.BASE.Invoke_SocketLogMessage(System.String)">
+	<summary>
+ The real invoke inner_Call. Only Call by invoking
+ </summary>
+	<remarks>Only call by invoking</remarks>
+</member><member name="F:EPWinSock.v4.BASE.LOCAL_IP">
+	<summary>
+ Local IP if you Need to Use it
+ </summary>
+	<remarks></remarks>
+</member><member name="F:EPWinSock.v4.BASE.sckSocket">
+	<summary>
+ The acting socket as client or server for this class
+ </summary>
+	<remarks></remarks>
+</member><member name="P:EPWinSock.v4.BASE.ParentControl_IContainer">
+	<summary>
+ The IContainer passed in by the designer
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:EPWinSock.v4.BASE.PacketSize">
+	<summary>
+ The amount of bytes that should be transfer per packet 
+ [NOTE: Total Memory usage for clients will be paket Size * Number of Connected Clients]
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:EPWinSock.v4.BASE.ParentControl">
+	<summary>
+ GET or Set the  Main Form or Control holding this Component
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:EPWinSock.v4.BASE.HandleCrossThreading">
+	<summary>
+ GET or Set the if events should be called on the Parent Control. If TRUE, Parent Control MUST be set
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="F:EPWinSock.v4.BASE._ConnectionState">
+	<summary>
+ Pass out the connection state
+ </summary>
+	<remarks></remarks>
+</member><member name="P:EPWinSock.v4.BASE.ConnectionState">
+	<summary>
+ Socket Connection State
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:EPWinSock.v4.BASE.Port">
+	<summary>
+ Ranges between 1 to 32767
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:EPWinSock.v4.BASE.InActivityTimeout">
+	<summary>
+ The Idle time in millisecs for client sockets to disconnect automatically. Ranges between 20000 to 65536 millisecs
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:EPWinSock.v4.BASE.ConnectionProtocol">
+	<summary>
+ For Now I will be exposing the Protocols supported by this control
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:EPWinSock.v4.BASE.SocketID">
+	<summary>
+ Fetches the Unique ID of this Socket
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPWinSock.v4.BASE.CanSendData(EPWinSock.v4.NET.ClientSocketWrapper)">
+	<summary>
+ Confirm and notify if socket can send info
+ </summary>
+	<param name="sck"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPWinSock.v4.BASE.getSelectedProtocol">
+	<summary>
+ Converts my exposed protocols to Standard Protocol Enumerations
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPWinSock.v4.BASE.Start">
+	<summary>
+ Starts the socket
+ </summary>
+	<remarks></remarks>
+</member><member name="M:EPWinSock.v4.BASE.Stop">
+	<summary>
+ Stops the Socket
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EPWinSock.v4.BASE">
+	<summary>
+ Bi-Functional Class. Acting as Server or as Client
+ </summary>
+	<remarks>Server Listens on All IPs by default</remarks>
+</member>
+</members>
+</doc>

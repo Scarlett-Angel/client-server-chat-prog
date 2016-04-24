@@ -1,0 +1,20 @@
+Hi there,
+
+EPWinsock 1.12.24.0
+.NET FRAMEWORK 4.0
+
+I want to show how to use EPWinsock to send Multilanguage messages over TCP Sockets.
+
+You might need to watch previous videos to get how to add a dll reference to your project. 
+
+You should have the EPWinSock.v4 on your project.
+
+ALL files can be downloaded somwhere below this youtube page.
+
+You only need to use the Send Data method to send your desired information.
+
+and receive it under DataReceived Event.
+
+Thanks for watching,
+
+Please subscribe and like our facebook page if you enjoy this video.
