@@ -1,0 +1,17 @@
+Error While processing Received Bytes: 目标数组的长度不够。请检查 destIndex 和长度以及数组的下限。
+
+SOURCE: CODERiT.Logger.v._3._5.Exceptions.EException
+
+CAUSES: 
+1.) 	目标数组的长度不够。请检查 destIndex 和长度以及数组的下限。
+2.) 	   在 System.Array.Copy(Array sourceArray, Int32 sourceIndex, Array destinationArray, Int32 destinationIndex, Int32 length, Boolean reliable)
+   在 System.Array.Copy(Array sourceArray, Int32 sourceIndex, Array destinationArray, Int32 destinationIndex, Int32 length)
+   在 EPWinSock.v4.DataXchange.Packets.Layer1Packet..ctor(Byte[] __bytes)
+   在 EPWinSock.v4.NET.ClientSocketWrapper.NotifyReceived(UInt16 ByteSizeReceived, dlgFileSent FileReceivingCancelledNotifier)
+
+LOG TIME: 2016年4月25日 0:45:14
+-------------------------------------------------------------------------------------------------------------->
+
+
+
+

@@ -48,7 +48,7 @@ Public Class Form1
             Dim hidden As Boolean = message(3) = "hiding"
             Dim currentuser As New user(username, hidden, senderSocketID)
             users.Add(currentuser)
-            ServerSock.SendMessage("Got It at {0}", senderSocketID)
+
 
         End If
 

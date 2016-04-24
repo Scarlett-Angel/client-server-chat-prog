@@ -5,12 +5,18 @@ Public Class Form1
     Private Sub Button2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button2.Click
         ClientSock.Start()
         Dim username As String
+        Dim connected As Boolean
+        connected = False
         username = txt_username.Text
         Dim password As String
         password = txt_password.Text
         Dim message As String
         message = “connect;" + username + ";" + password
-        ClientSock.SendData(System.Text.UTF32Encoding.UTF32.GetBytes(message))
+        While (connected = False)
+            connected = ClientSock.SendData(System.Text.UTF32Encoding.UTF32.GetBytes(message))
+        End While
+
+
     End Sub
 
     Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
