@@ -31,3 +31,7 @@ D:\Work\TcpServerb\TcpServer\TcpServer\obj\x86\Debug\TcpServer.Properties.Resour
 D:\Work\TcpServerb\TcpServer\TcpServer\obj\x86\Debug\TcpServer.csproj.GenerateResource.Cache
 D:\project\TcpServer\obj\x86\Debug\TcpServer.exe
 D:\project\TcpServer\obj\x86\Debug\TcpServer.pdb
+E:\UWS正课\周四Client Server Architecture\Assignments\WCF_ChatRoom\yz\TcpServer\obj\x86\Debug\TcpServer.exe
+E:\UWS正课\周四Client Server Architecture\Assignments\WCF_ChatRoom\yz\TcpServer\obj\x86\Debug\TcpServer.pdb
+E:\UWS正课\周四Client Server Architecture\Assignments\yz\TcpServer\obj\x86\Debug\TcpServer.exe
+E:\UWS正课\周四Client Server Architecture\Assignments\yz\TcpServer\obj\x86\Debug\TcpServer.pdb

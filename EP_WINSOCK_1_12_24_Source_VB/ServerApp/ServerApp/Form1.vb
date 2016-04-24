@@ -39,6 +39,17 @@ Public Class Form1
 #Region "Loggings"
 
     Private Sub ServerSock_DataReceived(SckData() As Byte, senderSocketID As Integer) Handles ServerSock.DataReceived
+        Dim message() As String
+        message = Split(";", System.Text.UTF32Encoding.UTF32.GetString(SckData), Limit:=1)
+        If message(0) = "connect" Then
+            Dim username As String = message(1)
+            Dim password As String = message(2)
+            Dim hidden As Boolean = message(3) = "hiding"
+
+
+        End If
+
+
         Me.lstLogs.Items.Add(
             String.Format("Client [{1}] Encoded Message: {0}",
                           System.Text.UTF32Encoding.UTF32.GetString(SckData),
@@ -78,6 +89,10 @@ Public Class Form1
          String.Format("Status Changed: {0}", DebugMessage)
          )
         Me.lstLogs.SelectedIndex = Me.lstLogs.Items.Count - 1
+    End Sub
+
+    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
     End Sub
 
 #End Region

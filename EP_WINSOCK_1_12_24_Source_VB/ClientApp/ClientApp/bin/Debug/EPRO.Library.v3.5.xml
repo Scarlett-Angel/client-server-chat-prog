@@ -1,0 +1,1032 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+EPRO.Library.v3.5
+</name>
+</assembly>
+<members>
+<member name="M:EPRO.Library.v3._5.Modules.basExtensions.ToggleValue(System.Int32,System.Int32,System.Int32)">
+	<summary>
+ Toggles Integer Values e.g betw
+ </summary>
+	<param name="current"></param>
+	<param name="min"></param>
+	<param name="max"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPRO.Library.v3._5.Modules.basExtensions.toShort(System.Object)">
+	<summary>
+ Converts an Any Object to Short Type
+ </summary>
+	<param name="val"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPRO.Library.v3._5.Modules.basExtensions.toBoolean(System.Object)">
+	<summary>
+ Converts an Any Object to Boolean
+ </summary>
+	<param name="val"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPRO.Library.v3._5.Modules.basExtensions.equalsIgnoreCase(System.String,System.String)">
+	<summary>
+ Checks if String1 equals String2 Ignoring the Case Sensitivity
+ </summary>
+	<param name="str1"></param>
+	<param name="str2"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPRO.Library.v3._5.EMaths.Convert_Turkish_Decimal_to_Eng(System.String)">
+	<summary>
+ Pure decimal NOT string formatted. e.g. 9998,00 or 9998.00
+ </summary>
+	<param name="xTurkishEntry"></param>
+	<returns>String because if the OS is Turkish and I use inbuilt format it will still be in Turkish</returns>
+	<remarks></remarks>
+</member><member name="M:EPRO.Library.v3._5.EMaths.getReadableByteValue(System.Int64)">
+	<summary>
+ Writes a Byte Value in Kb, Mb etc
+ </summary>
+	<param name="ByteValue"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPRO.Library.v3._5.EMaths.AlternateBit(System.Byte)">
+	<summary>
+ Alternate Bit Value. If 0 returns 1.. If 1 returns 0
+ </summary>
+	<param name="BitVal"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPRO.Library.v3._5.EMaths.getANumberBetween(System.Int32,System.Int32)">
+	<summary>
+ Fetches a number between the specified range
+ </summary>
+	<param name="x"></param>
+	<param name="y"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPRO.Library.v3._5.EMaths.getIntegerPortionOf(System.String)">
+	<summary>
+ Fetch the Integer Portion ONLY of a Value.. NB: Sign is included
+ </summary>
+	<param name="dblVal"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPRO.Library.v3._5.Objects.ELong.valueOf(System.String)">
+	<summary>
+ Converts An Object to long
+ </summary>
+	<param name="obj"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPRO.Library.v3._5.Objects.ELong.valueOf(System.DBNull)">
+	<summary>
+ Converts An Object to long
+ </summary>
+	<param name="obj"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPRO.Library.v3._5.Objects.ELong.valueOf(System.Double)">
+	<summary>
+ Converts An Object to long
+ </summary>
+	<param name="obj"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="F:EPRO.Library.v3._5.Types.NullableDateTime.NULL_RETURN">
+	<summary>
+ the value it returns instead of nothing
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EPRO.Library.v3._5.Types.NullableDateTime">
+	<summary>
+ A type that can hold both date and Nothing[Null] produces Date or NULL String
+ </summary>
+	<remarks></remarks>
+</member><member name="M:EPRO.Library.v3._5.Objects.EDouble.valueOf(System.String)">
+	<summary>
+ Converts An Object to Double
+ </summary>
+	<param name="obj"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPRO.Library.v3._5.Objects.EDouble.valueOf(System.Object)">
+	<summary>
+ Converts objects to double
+ </summary>
+	<param name="obj"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPRO.Library.v3._5.Windows.CommandPrompt.#ctor(System.Boolean,System.Boolean)">
+	<summary>
+ NOTE: if set to pipe result, It doesnt affect the command even if it contains a pipe. It will only override it
+ </summary>
+	<param name="PipeResults">If it is not true, Result will always return empty string</param>
+	<remarks></remarks>
+</member><member name="M:EPRO.Library.v3._5.Windows.CommandPrompt.Execute(System.String,System.String)">
+	<summary>
+ Execute a Command Prompt Code Like dir * /w
+ </summary>
+	<param name="args">dir * /w</param>
+	<param name="WorkingDirectory">The folder you want the command prompt to start from</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPRO.Library.v3._5.Windows.CommandPrompt.Execute(System.String)">
+	<summary>
+ Execute a Command Prompt Code Like dir * /w
+ </summary>
+	<param name="args">dir * /w</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPRO.Library.v3._5.Windows.CommandPrompt.ToString">
+	<summary>
+ Returns the Last result
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:EPRO.Library.v3._5.Windows.CommandPrompt">
+	<summary>
+ handles request to cmd.exe
+ </summary>
+	<remarks>Make sure cmd.exe is available and enabled by administrator</remarks>
+</member><member name="M:EPRO.Library.v3._5.Objects.EBoolean.valueOf(System.Object)">
+	<summary>
+ Converts An Object to Boolean
+ </summary>
+	<param name="obj"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPRO.Library.v3._5.Objects.EBoolean.valueOf(System.String)">
+	<summary>
+ Converts Both Integer String to Boolean. Like "123" AND "TRUE" OR "FASLSE" 
+ </summary>
+	<param name="obj"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPRO.Library.v3._5.Objects.EBoolean.valueOf(System.Boolean)">
+	<summary>
+ Converts A  Boolean to Boolean
+ </summary>
+	<param name="obj"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:EPRO.Library.v3._5.Applications.Framework.CloseApp_FormHandler">
+	<summary>
+ The form that serves as a pointer for us to close app
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:EPRO.Library.v3._5.Applications.Framework.isDisposed">
+	<summary>
+ Indicates the application is closed
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="F:EPRO.Library.v3._5.Applications.Framework.HANDLER_TITLE">
+	<summary>
+ The title of the handler form
+ </summary>
+	<remarks></remarks>
+</member><member name="F:EPRO.Library.v3._5.Applications.Framework.TChecker">
+	<summary>
+ Used to monitor app
+ </summary>
+	<remarks></remarks>
+</member><member name="M:EPRO.Library.v3._5.Applications.Framework.get_guid_from_ObjectType(System.Type)">
+	<summary>
+ Fetch GUID from an obj.getType
+ </summary>
+	<param name="objType"></param>
+	<returns></returns>
+	<remarks>Actually I can fetch the GUID from the application directly</remarks>
+</member><member name="M:EPRO.Library.v3._5.EIO.DeleteAllFromDirectory(System.String)">
+	<summary>
+ Try to empty a directory withought deleting the directory itself
+ </summary>
+	<param name="direc"></param>
+	<remarks></remarks>
+</member><member name="M:EPRO.Library.v3._5.EIO.DeleteAndRecreateDirectory(System.String)">
+	<summary>
+ Deletes a directory and all its contents if exist and recreate it as empty directory. Creates new if it doesnt exist
+ </summary>
+	<param name="DirectoryPath"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPRO.Library.v3._5.EIO.DeleteFileIfExists(System.String)">
+	<summary>
+ Deletes a file if it exists
+ </summary>
+	<param name="_FileName"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPRO.Library.v3._5.EIO.getAvailableFileName(System.String,System.String)">
+	<summary>
+ Scan a directory for available file name you can use and returns full path of the available file name
+ </summary>
+	<param name="FolderPath"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPRO.Library.v3._5.EIO.GetFileExtension(System.String)">
+	<summary>
+ Gets the extension of a file. It returns (.) with the extension name
+ </summary>
+	<param name="__FileName"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPRO.Library.v3._5.EIO.GetDirectoryName(System.String,System.Boolean)">
+	<summary>
+ Fetches the directory name.. using backward slash. Only the current directoy like [MyFolder] is returned not full directory
+ </summary>
+	<param name="DirectoryPath"></param>
+	<param name="IncludeSlash"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPRO.Library.v3._5.EIO.getDirectoryFullPath(System.String)">
+	<summary>
+ Get's a directory full path from a file full path
+ </summary>
+	<param name="FilePath"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPRO.Library.v3._5.EIO.getFileNameWithoutExtension(System.String)">
+	<summary>
+ Get a file name without extension
+ </summary>
+	<param name="__FileName">a File Name without the full path</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPRO.Library.v3._5.EIO.getFileName(System.Uri)">
+	<summary>
+ Get the file name in the provided uri
+ </summary>
+	<param name="uri"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPRO.Library.v3._5.EIO.getFileName(System.String)">
+	<summary>
+ Get the file name in the provided uri
+ </summary>
+	<param name="URL"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPRO.Library.v3._5.EIO.get_Code_File_StartUp_File_FullPathName(System.Type)">
+	<summary>
+ Return the File path with the file name for the type that was sent
+ </summary>
+	<param name="objType"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPRO.Library.v3._5.EIO.get_Code_File_StartUp_Path(System.Type)">
+	<summary>
+ Return the Only File path WITHOUT the file name for the type that was sent
+ </summary>
+	<param name="objType"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPRO.Library.v3._5.EIO.get_GUID_From_File(System.String)">
+	<summary>
+ Loads a File (.exe,.dll) and reads it Assembly for GUID attributes
+ </summary>
+	<param name="FilePath"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPRO.Library.v3._5.EIO.isFolderWritableAndReadable(System.String)">
+	<summary>
+ Confirms if a directory is writable by this current application. [If it has the access level]
+ </summary>
+	<param name="FolderPath"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPRO.Library.v3._5.EIO.isThis_a_file(System.String)">
+	<summary>
+ Get a file name without extension
+ </summary>
+	<param name="__FileName">a File Name without the full path</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:EPRO.Library.v3._5.EIO">
+	<summary>
+ Static Class for I/O functions
+ </summary>
+	<remarks></remarks>
+</member><member name="M:EPRO.Library.v3._5.Objects.EShort.valueOf(System.String)">
+	<summary>
+ Converts An Object to long
+ </summary>
+	<param name="obj"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPRO.Library.v3._5.Objects.EShort.valueOf(System.DBNull)">
+	<summary>
+ Converts An Object to short
+ </summary>
+	<param name="obj"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPRO.Library.v3._5.Objects.EShort.valueOf(System.Double)">
+	<summary>
+ Converts An Object to Short
+ </summary>
+	<param name="obj"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPRO.Library.v3._5.Objects.EShort.valueOf(System.Boolean)">
+	<summary>
+ Converts boolean to short
+ </summary>
+	<param name="obj"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPRO.Library.v3._5.Objects.EShort.valueOf(System.Object)">
+	<summary>
+ Converts objects to short
+ </summary>
+	<param name="obj"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPRO.Library.v3._5.Objects.EForm.ShowChildFormDialog(System.Windows.Forms.Form@,System.Windows.Forms.Form,System.Double)">
+	<summary>
+ Display a Modal Child Form and return the dialog result
+ </summary>
+	<param name="Parent"></param>
+	<param name="Child"></param>
+	<param name="FadeParentOpaq"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPRO.Library.v3._5.Objects.EForm.showChildFormNonModal(System.Windows.Forms.Form@,System.Windows.Forms.Form,System.Boolean)">
+	<summary>
+ Opens a non modal child form
+ </summary>
+	<param name="ParentForm"></param>
+	<param name="child"></param>
+	<param name="CloseParentForm"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPRO.Library.v3._5.Objects.EForm.showChildFormNonModal(System.Windows.Forms.Form)">
+	<summary>
+ Opens a non modal child form and does not close the parent form
+ </summary>
+	<param name="child"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPRO.Library.v3._5.Objects.EForm.isValid_Form(System.Windows.Forms.Form)">
+	<summary>
+ Checks if it is not nothing and not disposed
+ </summary>
+	<param name="frm"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPRO.Library.v3._5.Objects.EForm.get_guid_from_ObjectType(System.Type)">
+	<summary>
+ Fetch GUID from an obj.getType
+ </summary>
+	<param name="objType"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPRO.Library.v3._5.Objects.EForm.get_AppTitle_from_ObjectType(System.Type)">
+	<summary>
+ Fetch GUID from an obj.getType
+ </summary>
+	<param name="objType"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPRO.Library.v3._5.Objects.EForm.ValidateLettersAndSpaceOnly(System.String@,System.String@,System.Int64,System.Int64)">
+	<summary>
+ Allows Leters [a - Z] and Space Only
+ </summary>
+	<param name="objInput"></param>
+	<param name="objErrMessage"></param>
+	<param name="MinimumLength"></param>
+	<param name="MaximumLength"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="F:EPRO.Library.v3._5.Windows.MultiThreading.ThreadsAccumulated">
+	<summary>
+ This the threads container that holds all threads
+ </summary>
+	<remarks></remarks>
+</member><member name="F:EPRO.Library.v3._5.Windows.MultiThreading.AwaitingExitThreads">
+	<summary>
+ Only Enables this class to exit threads without aborting them during execution
+ </summary>
+	<remarks></remarks>
+</member><member name="P:EPRO.Library.v3._5.Windows.MultiThreading.ThreadsCount">
+	<summary>
+ Get the numbers of thread in this class
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPRO.Library.v3._5.Windows.MultiThreading.PlaceThreadInInfiniteLoop(System.Boolean,System.Action{System.Threading.Thread},System.Int64)">
+	<summary>
+	</summary>
+	<param name="SendThread">Dummy Overload</param>
+	<param name="CallBackFunc"></param>
+	<param name="SleepTimeMilliseconds"></param>
+	<remarks></remarks>
+</member><member name="M:EPRO.Library.v3._5.Windows.MultiThreading.PlaceThreadInInfiniteLoop(System.Boolean,EPRO.Library.v3._5.Types.EDelegates.delegateSubBoolThread,System.Boolean,System.Int64)">
+	<summary>
+	</summary>
+	<param name="SendThread">Dummy Overload</param>
+	<param name="CallBackFunc"></param>
+	<param name="SleepTimeMilliseconds"></param>
+	<remarks></remarks>
+</member><member name="M:EPRO.Library.v3._5.Windows.MultiThreading.PlaceThreadInInfiniteLoop(EPRO.Library.v3._5.Types.EDelegates.delegateSubBool,System.Boolean,System.Int64)">
+	<summary>
+	</summary>
+	<param name="CallBackFunc"></param>
+	<param name="BoolVal">Boolean Value</param>
+	<param name="SleepTimeMilliseconds"></param>
+	<remarks></remarks>
+</member><member name="M:EPRO.Library.v3._5.Windows.MultiThreading.PlaceThreadInInfiniteLoop(EPRO.Library.v3._5.Types.EDelegates.delegateNoParam,System.Int64)">
+	<summary>
+ Place a thread in inFiniteLoop
+ </summary>
+	<param name="CallBackFunc"></param>
+	<param name="SleepTimeMilliseconds"></param>
+	<remarks></remarks>
+</member><member name="M:EPRO.Library.v3._5.Windows.MultiThreading.RunOnce(System.Action)">
+	<summary>
+ Run Thread Once
+ </summary>
+	<remarks></remarks>
+</member><member name="M:EPRO.Library.v3._5.Windows.MultiThreading.ExitAsyncThread(System.Threading.Thread)">
+	<summary>
+ Add to threads that are waiting to be removed
+ </summary>
+	<param name="ThreadID"></param>
+	<remarks></remarks>
+</member><member name="M:EPRO.Library.v3._5.Windows.MultiThreading.getOSLockUsing(System.Threading.Mutex@,System.String)">
+	<summary>
+ Returns true if this process succeeds on fetching this lock else the lock with same name is already in use. ReleaseMutex when you finish using it
+ </summary>
+	<param name="Key"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPRO.Library.v3._5.Windows.MultiThreading.RunAlways(EPRO.Library.v3._5.Types.EDelegates.delegateSubBool,System.Boolean,System.Int64)">
+	<summary>
+ Note: You will need to check for invokeRequired
+ </summary>
+	<param name="CallBackFunc"></param>
+	<param name="SleepTimeMilliseconds"></param>
+	<remarks></remarks>
+</member><member name="M:EPRO.Library.v3._5.Windows.MultiThreading.RunAlways(EPRO.Library.v3._5.Types.EDelegates.delegateNoParam,System.Int64)">
+	<summary>
+ Keeps Running Thread
+ </summary>
+	<param name="CallBackFunc"></param>
+	<param name="SleepTimeMilliseconds"></param>
+	<remarks></remarks>
+</member><member name="T:EPRO.Library.v3._5.Windows.MultiThreading">
+	<summary>
+ This Class Helps Multi-Tasking
+ </summary>
+	<author>
+ Epro Company
+ </author>
+	<version>1.0.0</version>
+	<remarks></remarks>
+</member><member name="F:EPRO.Library.v3._5.Objects.EDateTime.DateFormats.DateFormat1">
+	<summary>
+ General Formats understood by all platform [12/JUL/2001]
+ </summary>
+	<remarks></remarks>
+</member><member name="F:EPRO.Library.v3._5.Objects.EDateTime.DateFormats.DateFormat2">
+	<summary>
+ General Formats understood by all platform [12 JUL 2001]
+ </summary>
+	<remarks></remarks>
+</member><member name="F:EPRO.Library.v3._5.Objects.EDateTime.DateFormats.DateFormat3">
+	<summary>
+ General Formats understood by all platform [12-JUL-2001]
+ </summary>
+	<remarks></remarks>
+</member><member name="F:EPRO.Library.v3._5.Objects.EDateTime.DateFormats.DateFormat4">
+	<summary>
+ Complex Format ..Meant for display [ Monday, April 07, 2014 ]
+ </summary>
+	<remarks></remarks>
+</member><member name="F:EPRO.Library.v3._5.Objects.EDateTime.DateFormats.DateFormatsEnum.DateFormat1">
+	<summary>
+ [12/JUL/2001]
+ </summary>
+	<remarks></remarks>
+</member><member name="F:EPRO.Library.v3._5.Objects.EDateTime.DateFormats.DateFormatsEnum.DateFormat2">
+	<summary>
+ [12 JUL 2001]
+ </summary>
+	<remarks></remarks>
+</member><member name="F:EPRO.Library.v3._5.Objects.EDateTime.DateFormats.DateFormatsEnum.DateFormat3">
+	<summary>
+ [12-JUL-2001]
+ </summary>
+	<remarks></remarks>
+</member><member name="F:EPRO.Library.v3._5.Objects.EDateTime.DateFormats.DateFormatsEnum.DateFormat4">
+	<summary>
+ [ Monday, April 07, 2014 ]
+ </summary>
+	<remarks></remarks>
+</member><member name="F:EPRO.Library.v3._5.Objects.EDateTime.TimeFormatUsedWithoutSeconds">
+	<summary>
+ Sample [12:00 AM]
+ </summary>
+	<remarks></remarks>
+</member><member name="M:EPRO.Library.v3._5.Objects.EDateTime.valueOf(System.Object)">
+	<summary>
+ Returns general date string if value is ok if it is nothing
+ </summary>
+	<param name="obj"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPRO.Library.v3._5.Objects.EDateTime.valueOf(System.Object,EPRO.Library.v3._5.Objects.EDateTime.DateFormats.DateFormatsEnum)">
+	<summary>
+ Returns general date string if value is ok if it is nothing
+ </summary>
+	<param name="obj"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPRO.Library.v3._5.Objects.EDateTime.GetTimeDifferenceInMilliseconds(System.DateTime,System.DateTime)">
+	<summary>
+ Get the time difference in Milliseconds [1 sec = 1000 ms]
+ </summary>
+	<param name="LowerTime"></param>
+	<param name="HigherTime"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPRO.Library.v3._5.Objects.EDateTime.ConvertSecsToHrsMinsSecs(System.Int64)">
+	<summary>
+ Convert Secs to Hr:MM:Secs
+ </summary>
+	<param name="Secs"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPRO.Library.v3._5.Objects.EDateTime.ConvertSecsToString(System.UInt64)">
+	<summary>
+ Convert Secs to Hr:MM:Secs
+ </summary>
+	<param name="Secs"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPRO.Library.v3._5.Objects.EDateTime.ConvertSecsToString(System.Int64)">
+	<summary>
+ Convert Secs to Hr:MM
+ </summary>
+	<param name="Secs"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPRO.Library.v3._5.Objects.EDateTime.getHours(System.Int64)">
+	<summary>
+ Get Hours From Mins
+ </summary>
+	<param name="Secs"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPRO.Library.v3._5.Objects.EDateTime.getHours(System.DateTime)">
+	<summary>
+ Get Hours From Date [Same as Hour() function]
+ </summary>
+	<param name="LimitedTime">Limited to 24 hrs .. specifically 23hrs 59mins</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPRO.Library.v3._5.Objects.EDateTime.getMins(System.Int64)">
+	<summary>
+ Get Mins From Secs
+ </summary>
+	<param name="Secs"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPRO.Library.v3._5.Objects.EDateTime.getMins(System.DateTime)">
+	<summary>
+ Get Mins From Date [Same as Minute() function]
+ </summary>
+	<param name="LimitedTime">Limited to 24 hrs .. specifically 23hrs 59mins</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPRO.Library.v3._5.Objects.EDateTime.getSecs(System.Int32)">
+	<summary>
+ Get Secs From Hours
+ </summary>
+	<param name="Hrs"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPRO.Library.v3._5.Objects.EDateTime.getSecs(System.Int64)">
+	<summary>
+ Get Secs From Mins
+ </summary>
+	<param name="Mins"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPRO.Library.v3._5.Objects.EDateTime.AddDayWithTime(System.DateTime,System.DateTime)">
+	<summary>
+ Joins An instance of date with time. 
+ </summary>
+	<param name="sDate"></param>
+	<param name="sTime"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPRO.Library.v3._5.Objects.EDateTime.AddDayDateWithTimeDate(System.DateTime,System.DateTime)">
+	<summary>
+ Format day date and then join it with the formatted timeDate
+ </summary>
+	<param name="sDate"></param>
+	<param name="sTime"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPRO.Library.v3._5.Objects.EDateTime.FormatLongTime(System.Boolean)">
+	<summary>
+ Format Now and Returns a 12Hr Time Format ['"hh : mm: ss tt"]
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPRO.Library.v3._5.Objects.EDateTime.getAMPM(System.DateTime)">
+	<summary>
+ Get if it is AM or PM
+ </summary>
+	<param name="dTime"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPRO.Library.v3._5.Objects.EDateTime.Get_First_Day_In_A_Week_Of_a_PointerDay(System.DateTime,Microsoft.VisualBasic.FirstDayOfWeek)">
+	<summary>
+ Fecthes first day from a week. Like I want mon from the same week today falls in .. Using the Pointer day
+ </summary>
+	<param name="ptrDay">A day in the week</param>
+	<param name="WkStartingDay">The first day you want from the week</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPRO.Library.v3._5.Objects.EDateTime.Get_A_Specific_Day_In_A_Week_Using_a_PointerDay(System.DateTime,Microsoft.VisualBasic.FirstDayOfWeek,Microsoft.VisualBasic.FirstDayOfWeek)">
+	<summary>
+ Fecthes a day from a week. Like I want mon from the same week today falls in .. starting from a day
+ </summary>
+	<param name="ptrDay">A day in the week</param>
+	<param name="WkStartingDay">The day that connotes the starting of the week</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:EPRO.Library.v3._5.Objects.EDateTime">
+	<summary>
+ Controls the Date Conversions [To Compare Dates, Use .Equals for better functionality]
+ </summary>
+	<remarks></remarks>
+</member><member name="M:EPRO.Library.v3._5.Objects.EArrays.CombineArrays``1(System.Collections.Generic.List{``0}[])">
+	<summary>
+ Join Arrays of the same types
+ </summary>
+	<typeparam name="T"></typeparam>
+	<param name="arrys"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPRO.Library.v3._5.Objects.EArrays.GetNextElementInArray(System.String,System.String,System.String)">
+	<summary>
+ Get Next Item in Array to CurrentItem. If current item=last item, return first element.
+ </summary>
+	<param name="strElements"></param>
+	<param name="CurrentItem">If current item is not found, returns first item</param>
+	<param name="Delimiter">Default is Comma(,)</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPRO.Library.v3._5.Objects.EArrays.Search_in_Array(System.String[0:,0:],System.String,System.Boolean)">
+	<summary>
+ Search array first column in 2 dimaensional array. Item is Exact
+ </summary>
+	<param name="strArray"></param>
+	<param name="strSearch"></param>
+	<param name="DirectCastEqualsTheValueNotInstr"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPRO.Library.v3._5.Objects.EArrays.Search_in_Array(System.String[0:,0:],System.String)">
+	<summary>
+ Search array first column in 2 dimaensional array. Item Contains
+ </summary>
+	<param name="strArray"></param>
+	<param name="strSearch"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPRO.Library.v3._5.Objects.EArrays.Search_in_Array(System.String[],System.String,System.Boolean)">
+	<summary>
+ Indicates a Search in Array of Lines where the WHOLE Line must be equal to the String For Searching. It returns ONLY First INDEX
+ </summary>
+	<param name="strArray"></param>
+	<param name="strSearch"></param>
+	<param name="DirectCastEqualsTheValueNotInstr">Just Set to True, If you want this type of Search. 
+ Otherwise, Set to False Which Indicates ONLY part of the line is equal to the String For Searching</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPRO.Library.v3._5.Objects.EArrays.Search_in_Array(System.String[],System.String)">
+	<summary>
+ Search through lines of array for a word string. If the word is contained in a line, it returns the line index [First Index]
+ </summary>
+	<param name="strArray">Lines (Of String) array</param>
+	<param name="strSearch">String to search</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPRO.Library.v3._5.Objects.EArrays.Search_in_Array(System.String[],System.String,EPRO.Library.v3._5.Objects.EArrays.SearchArrays)">
+	<summary>
+ Search through lines of array for a word string. If the word is contained in a line, it returns the line index. Select Which Index [First, Last ...]
+ </summary>
+	<param name="strArray">Lines (Of String) array</param>
+	<param name="strSearch">String to search</param>
+	<param name="IndexType">Indicates Which Index you want? If First Discovered or Last ....</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:EPRO.Library.v3._5.Objects.EArrays.SearchArrays">
+	<summary>
+ Use to indicate which index user wants
+ </summary>
+	<remarks></remarks>
+</member><member name="M:EPRO.Library.v3._5.Objects.EArrays.explodeArray(System.String[],System.String,System.Boolean)">
+	<summary>
+ This Method Turns Array of Strings into a plain string with any delimiter Specified.
+ Also Includes the delimiter in the text returned
+ </summary>
+	<param name="strArray">Array Value to Explode</param>
+	<param name="delimiter">Use to indicate separate lines in return value</param>
+	<param name="includeEmptyLine">Removes Empty Lines in String Array</param>
+	<returns>String</returns>
+	<remarks></remarks>
+</member><member name="M:EPRO.Library.v3._5.Objects.EArrays.GetOneDimension``1(``0[0:,0:])">
+	<summary>
+ Returns first column
+ </summary>
+	<typeparam name="T"></typeparam>
+	<param name="TwoDimension"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPRO.Library.v3._5.Objects.EArrays.Dispose_Objects_Collection``1(``0[]@)">
+	<summary>
+ Dispose Objects in a array and sets the array to nothing
+ </summary>
+	<param name="obj"></param>
+	<remarks></remarks>
+</member><member name="M:EPRO.Library.v3._5.Objects.EArrays.getArrayCopy``1(``0[])">
+	<summary>
+ Get a copy of array .. Not pointing to same memory address
+ </summary>
+	<param name="arr"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPRO.Library.v3._5.Objects.EArrays.ReTagAllAllItemsAccordingToIndex``1(``0[]@)">
+	<summary>
+ Adds their index to their tag property
+ </summary>
+	<typeparam name="T"></typeparam>
+	<param name="ArrayObjectCollection"></param>
+	<remarks></remarks>
+</member><member name="T:EPRO.Library.v3._5.Types.EDelegates.delegateBoolFunc">
+	<summary>
+ Takes a string Parameter and returns boolean
+ </summary>
+	<param name="strParam"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:EPRO.Library.v3._5.Types.EDelegates.delegateSubString">
+	<summary>
+ Takes a string Parameter and returns Nothing
+ </summary>
+	<param name="strParam"></param>
+	<remarks></remarks>
+</member><member name="T:EPRO.Library.v3._5.Types.EDelegates.delegateSubBool">
+	<summary>
+ Takes a boolean Parameter and returns Nothing
+ </summary>
+	<param name="strParam"></param>
+	<remarks></remarks>
+</member><member name="T:EPRO.Library.v3._5.Types.EDelegates.delegateSubBoolThread">
+	<summary>
+ Takes a boolean Parameter,Thread Parameter and returns Nothing
+ </summary>
+	<param name="strParam"></param>
+	<remarks></remarks>
+</member><member name="T:EPRO.Library.v3._5.Types.EDelegates.delegateSubThread">
+	<summary>
+ Takes a boolean Parameter and returns Nothing
+ </summary>
+	<param name="strParam"></param>
+	<remarks></remarks>
+</member><member name="T:EPRO.Library.v3._5.Types.EDelegates.delegateNoParam">
+	<summary>
+ Collects No Parameters
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EPRO.Library.v3._5.Types.EDelegates">
+	<summary>
+ Contains Different Delegate Definitions. Delegates is like const .. They dont need shared specifier. Once public
+ They are available
+ </summary>
+	<remarks></remarks>
+</member><member name="M:EPRO.Library.v3._5.Objects.EImage.SaveImage_To_File(System.Drawing.Image,System.String)">
+	<summary>
+ To solve the issue with image saving not being able to decern it's format
+ </summary>
+	<param name="Img"></param>
+	<param name="FilePath">The real output is Bitmaps(bmp)</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPRO.Library.v3._5.Objects.EImage.get_Icon_From_Object_Type(System.Type)">
+	<summary>
+ Get Icon from application type
+ </summary>
+	<param name="objType"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:EPRO.Library.v3._5.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:EPRO.Library.v3._5.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:EPRO.Library.v3._5.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="F:EPRO.Library.v3._5.Objects.EStrings.QUOTE">
+	<summary>
+ For quotation mark
+ </summary>
+	<remarks></remarks>
+</member><member name="M:EPRO.Library.v3._5.Objects.EStrings.valueOf(System.DBNull)">
+	<summary>
+ Converts DBNUll to System.String.Empty()
+ </summary>
+	<param name="obj"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPRO.Library.v3._5.Objects.EStrings.valueOf(System.Object)">
+	<summary>
+ Converts Objects to String. Returns System.String.Empty() if it is nothing
+ </summary>
+	<param name="obj"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPRO.Library.v3._5.Objects.EStrings.equalsIgnoreCase(System.String,System.String)">
+	<summary>
+ Checks if String1 equals String2 Ignoring the Case Sensitivity
+ </summary>
+	<param name="str1"></param>
+	<param name="str2"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPRO.Library.v3._5.Objects.EStrings.isEmpty(System.String)">
+	<summary>
+ Checks absolutely if a string is empty
+ </summary>
+	<param name="value"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPRO.Library.v3._5.Objects.EStrings.RemoveAllSpaces(System.String)">
+	<summary>
+ Replaces the occurrence of space in the string with NULL
+ </summary>
+	<param name="strExpression"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPRO.Library.v3._5.Objects.EStrings.QuoteString(System.String)">
+	<summary>
+ Quote String. Sample Man ==&gt; "Man"
+ </summary>
+	<param name="Expression"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPRO.Library.v3._5.Objects.EStrings.WrapUpAtLeast(System.String,System.Int32,System.Char,System.Boolean)">
+	<summary>
+  If Original Length is Greater Than The Specified Length,
+     It returns the same string
+  Otherwise, if less than, String is buffered with specified character. Same Function as String.PadLeft or String.PadRight
+ 
+ <example>Wraps up a string to a Specified Length.  
+ <code>
+    [WrapUp("Man",4,"A")  = "ManA"]   
+    [WrapUp("Man",3,"A")  = "Man".]   
+    [WrapUp("Man",2,"A")  = "Man". ]
+ </code>
+		</example>
+	</summary>
+</member><member name="M:EPRO.Library.v3._5.Objects.EStrings.WrapUp(System.String,System.Int32,System.Char,System.Boolean)">
+	<summary>
+  If Original Length is Greater Than The Specified Length,
+      Length is cut to specified lenth
+  Otherwise, if less than, String is buffered with specified character. Same Function as String.PadLeft or String.PadRight
+ 
+ <example>Wraps up a string to a Specified Length.  
+ <code>
+    [WrapUp("Man",4,"A")  = "ManA"]   
+    [WrapUp("Man",3,"A")  = "Man".]   
+    [WrapUp("Man",2,"A")  = "Ma". ]
+ </code>
+		</example>
+	</summary>
+</member><member name="M:EPRO.Library.v3._5.Objects.EStrings.CompareVersions(System.String,System.String)">
+	<summary>
+ Determines if Version1 precedes Version2. 
+ If 1 &gt; 2 returns 1.
+ if 1 = 2 returns 0.
+ if 1 &lt; 2 returns -1.
+ </summary>
+	<param name="version1"></param>
+	<param name="version2"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPRO.Library.v3._5.Objects.EStrings.splitWithoutNullElement(System.String,System.String)">
+	<summary>
+ Splits a string and returns result with empty string element
+ </summary>
+	<param name="expression"></param>
+	<param name="delimiter"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPRO.Library.v3._5.Objects.EStrings.ExtractStringFromHtml(System.String,System.String,System.String,System.Double@)">
+	<summary>
+ Extract String from an expression using the first appearance of the limits. 
+ Example: StartString = lstmessagelst ... Stop String = lst/messagelst
+ </summary>
+	<param name="HTMLString"></param>
+	<param name="startString"></param>
+	<param name="stopString"></param>
+	<param name="locatePosition"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPRO.Library.v3._5.Objects.EStrings.getFirstAbbreviatedLetter(System.String,System.Boolean,System.String)">
+	<summary>
+ Fetch first letter of the string and abbreviate it
+ </summary>
+	<param name="strString"></param>
+	<param name="Capitalized"></param>
+	<param name="AbbvSymbol"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPRO.Library.v3._5.Objects.EStrings.FormatString(System.String,System.String[])">
+	<summary>
+ Uses this syntax *:=0 instead of the syntax of string.format {0}. [?Microsoft.VisualBasic.Strings.Format()] -Dont Confuse it
+ </summary>
+	<param name="Expression">The expression that contains</param>
+	<param name="args"></param>
+	<returns></returns>
+	<remarks>Becareful so you dont confuse it with [?Microsoft.VisualBasic.Strings.Format()]</remarks>
+</member><member name="M:EPRO.Library.v3._5.Objects.EStrings.CLEAN_UP_STRING(System.String)">
+	<summary>
+ Removes all non-readable characters from strings range [0 - 31]
+ </summary>
+	<param name="ORIGINAL_STRING"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPRO.Library.v3._5.Objects.EStrings.Reverse(System.String)">
+	<summary>
+ Reverse the sequence of a string from back to front
+ </summary>
+	<param name="value"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPRO.Library.v3._5.Objects.EStrings.EncodeToFixLengthBytes(System.String)">
+	<summary>
+ Dont use unless necessary. 
+ </summary>
+	<param name="Str"></param>
+	<returns>Returns * 3 the length of string</returns>
+	<remarks></remarks>
+</member><member name="M:EPRO.Library.v3._5.Objects.EStrings.Reverse_EncodeToFixLengthBytes(System.String)">
+	<summary>
+ Reverse the process of EncodeTOFixLengthBytes
+ </summary>
+	<param name="Str"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:EPRO.Library.v3._5.Objects.EStrings">
+	<summary>
+ Controls the String Class
+ </summary>
+	<remarks></remarks>
+</member><member name="M:EPRO.Library.v3._5.Objects.EInt.valueOf(System.String)">
+	<summary>
+ Converts An Object to long
+ </summary>
+	<param name="obj"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPRO.Library.v3._5.Objects.EInt.valueOf(System.DBNull)">
+	<summary>
+ Converts An Object to int32
+ </summary>
+	<param name="obj"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPRO.Library.v3._5.Objects.EInt.valueOf(System.Double)">
+	<summary>
+ Converts An Object to int32
+ </summary>
+	<param name="obj"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EPRO.Library.v3._5.Objects.EInt.valueOf(System.Object)">
+	<summary>
+ Converts objects to integer
+ </summary>
+	<param name="obj"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

@@ -4,7 +4,13 @@ Public Class Form1
 
     Private Sub Button2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button2.Click
         ClientSock.Start()
-
+        Dim username As String
+        username = txt_username.Text
+        Dim password As String
+        password = txt_password.Text
+        Dim message As String
+        message = “connect;" + username + ";" + password
+        ClientSock.SendData(System.Text.UTF32Encoding.UTF32.GetBytes(message))
     End Sub
 
     Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
@@ -12,6 +18,14 @@ Public Class Form1
     End Sub
 
     Private Sub Button3_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button3.Click
+        '需要更多sent功能
+        Dim sendingmessage As String
+        sendingmessage = TextBox1.Text
+        Dim messageall() As String
+
+        Split()
+        'If Left(sendingmessage, 1) = "@" Then
+
 
         ' ClientSock.SendMessage(TextBox1.Text)
 
@@ -64,6 +78,14 @@ Public Class Form1
 
 
         If CurrentState = SocketConnectionState.Disconnected Then Me.Text = "Client App"
+
+    End Sub
+
+    Private Sub txt_towhom_TextChanged(sender As Object, e As EventArgs)
+
+    End Sub
+
+    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
     End Sub
 End Class

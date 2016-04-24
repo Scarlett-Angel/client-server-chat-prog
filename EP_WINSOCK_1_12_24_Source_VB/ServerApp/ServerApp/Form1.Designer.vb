@@ -27,13 +27,13 @@ Partial Class Form1
         Me.btnGoOffline = New System.Windows.Forms.Button()
         Me.lstLogs = New System.Windows.Forms.ListBox()
         Me.lsvClientList = New System.Windows.Forms.ListView()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.ServerSock = New EPWinSock.v4.NET.ServerSocket(Me.components)
-        Me.Label2 = New System.Windows.Forms.Label()
         Me.colClientID = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.colIPAddress = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.colMacAddress = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.colOS = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.ServerSock = New EPWinSock.v4.NET.ServerSocket(Me.components)
+        Me.Label2 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'btnGoOnline
@@ -57,10 +57,10 @@ Partial Class Form1
         'lstLogs
         '
         Me.lstLogs.FormattingEnabled = True
-        Me.lstLogs.ItemHeight = 22
+        Me.lstLogs.ItemHeight = 26
         Me.lstLogs.Location = New System.Drawing.Point(19, 64)
         Me.lstLogs.Name = "lstLogs"
-        Me.lstLogs.Size = New System.Drawing.Size(570, 136)
+        Me.lstLogs.Size = New System.Drawing.Size(570, 134)
         Me.lstLogs.TabIndex = 1
         '
         'lsvClientList
@@ -72,31 +72,6 @@ Partial Class Form1
         Me.lsvClientList.TabIndex = 2
         Me.lsvClientList.UseCompatibleStateImageBehavior = False
         Me.lsvClientList.View = System.Windows.Forms.View.Details
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Trebuchet MS", 14.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(17, 252)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(111, 24)
-        Me.Label1.TabIndex = 3
-        Me.Label1.Text = "Clients List"
-        '
-        'ServerSock
-        '
-        Me.ServerSock.ParentControl = Me
-        Me.ServerSock.Port = CType(2000, Short)
-        '
-        'Label2
-        '
-        Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Trebuchet MS", 14.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(15, 39)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(130, 24)
-        Me.Label2.TabIndex = 3
-        Me.Label2.Text = "Message Logs"
         '
         'colClientID
         '
@@ -117,9 +92,35 @@ Partial Class Form1
         Me.colOS.Text = "OS"
         Me.colOS.Width = 180
         '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Trebuchet MS", 14.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(17, 252)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(142, 29)
+        Me.Label1.TabIndex = 3
+        Me.Label1.Text = "Clients List"
+        '
+        'ServerSock
+        '
+        Me.ServerSock.InActivityTimeout = CType(25000US, UShort)
+        Me.ServerSock.ParentControl = Me
+        Me.ServerSock.Port = CType(2000, Short)
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Font = New System.Drawing.Font("Trebuchet MS", 14.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(15, 39)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(165, 29)
+        Me.Label2.TabIndex = 3
+        Me.Label2.Text = "Message Logs"
+        '
         'Form1
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 22.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(11.0!, 26.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(596, 425)
         Me.Controls.Add(Me.Label2)
