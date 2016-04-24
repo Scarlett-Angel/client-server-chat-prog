@@ -23,7 +23,7 @@ Public Class Form1
         sendingmessage = TextBox1.Text
         Dim messageall() As String
 
-        Split()
+        'Split()
         'If Left(sendingmessage, 1) = "@" Then
 
 

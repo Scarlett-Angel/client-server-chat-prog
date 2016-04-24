@@ -1,9 +1,10 @@
 ﻿Option Strict On
-
+Imports System.Collections.Generic
 Imports EPWinSock.v4.BASE
 
 
 Public Class Form1
+    Public users As New List(Of user)()
 
     Private Sub btnGoOnline_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnGoOnline.Click
         ServerSock.Start()
@@ -45,7 +46,9 @@ Public Class Form1
             Dim username As String = message(1)
             Dim password As String = message(2)
             Dim hidden As Boolean = message(3) = "hiding"
-
+            Dim currentuser As New user(username, hidden, senderSocketID)
+            users.Add(currentuser)
+            ServerSock.SendMessage("Got It at {0}", senderSocketID)
 
         End If
 
