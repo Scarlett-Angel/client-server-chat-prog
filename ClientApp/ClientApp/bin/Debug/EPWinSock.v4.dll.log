@@ -1,0 +1,15 @@
+Thread was being aborted.
+
+SOURCE: CODERiT.Logger.v._3._5.Exceptions.EException
+
+CAUSES: 
+1.) 	   at System.Threading.Thread.SleepInternal(Int32 millisecondsTimeout)
+   at System.Threading.Thread.Sleep(Int32 millisecondsTimeout)
+   at EPWinSock.v4.NET.ClientSocketWrapper.SocketActivityMonitor.Run()
+
+LOG TIME: 26 April 2016 22:03:49
+-------------------------------------------------------------------------------------------------------------->
+
+
+
+

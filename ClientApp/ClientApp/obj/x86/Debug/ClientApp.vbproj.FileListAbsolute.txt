@@ -1,0 +1,95 @@
+C:\Users\Win7Bas64BaseOS\Desktop\ClientApp\ClientApp\bin\Debug\ClientApp.exe
+C:\Users\Win7Bas64BaseOS\Desktop\ClientApp\ClientApp\bin\Debug\ClientApp.pdb
+C:\Users\Win7Bas64BaseOS\Desktop\ClientApp\ClientApp\bin\Debug\ClientApp.xml
+C:\Users\Win7Bas64BaseOS\Desktop\ClientApp\ClientApp\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Win7Bas64BaseOS\Desktop\ClientApp\ClientApp\obj\x86\Debug\ClientApp.Form1.resources
+C:\Users\Win7Bas64BaseOS\Desktop\ClientApp\ClientApp\obj\x86\Debug\ClientApp.Resources.resources
+C:\Users\Win7Bas64BaseOS\Desktop\ClientApp\ClientApp\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Win7Bas64BaseOS\Desktop\ClientApp\ClientApp\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Win7Bas64BaseOS\Desktop\ClientApp\ClientApp\obj\x86\Debug\ClientApp.exe
+C:\Users\Win7Bas64BaseOS\Desktop\ClientApp\ClientApp\obj\x86\Debug\ClientApp.xml
+C:\Users\Win7Bas64BaseOS\Desktop\ClientApp\ClientApp\obj\x86\Debug\ClientApp.pdb
+\\Vboxsvr\f_drive\SkyDrive\VB2010\Projs\Class Libraries Projs\Sockets\R7\Sockets\OnlineSamples\R0\ClientApp\ClientApp\obj\x86\Debug\ClientApp.exe
+\\Vboxsvr\f_drive\SkyDrive\VB2010\Projs\Class Libraries Projs\Sockets\R7\Sockets\OnlineSamples\R0\ClientApp\ClientApp\obj\x86\Debug\ClientApp.xml
+\\Vboxsvr\f_drive\SkyDrive\VB2010\Projs\Class Libraries Projs\Sockets\R7\Sockets\OnlineSamples\R0\ClientApp\ClientApp\obj\x86\Debug\ClientApp.pdb
+\\Vboxsvr\f_drive\SkyDrive\VB2010\Projs\Class Libraries Projs\Sockets\R7\Sockets\OnlineSamples\R0\ClientApp\ClientApp\bin\Debug\ClientApp.exe
+\\Vboxsvr\f_drive\SkyDrive\VB2010\Projs\Class Libraries Projs\Sockets\R7\Sockets\OnlineSamples\R0\ClientApp\ClientApp\bin\Debug\ClientApp.pdb
+\\Vboxsvr\f_drive\SkyDrive\VB2010\Projs\Class Libraries Projs\Sockets\R7\Sockets\OnlineSamples\R0\ClientApp\ClientApp\bin\Debug\ClientApp.xml
+\\Vboxsvr\f_drive\SkyDrive\VB2010\Projs\Class Libraries Projs\Sockets\R7\Sockets\OnlineSamples\R0\ClientApp\ClientApp\bin\Debug\EPWinSock.dll
+\\Vboxsvr\f_drive\SkyDrive\VB2010\Projs\Class Libraries Projs\Sockets\R7\Sockets\OnlineSamples\R0\ClientApp\ClientApp\bin\Debug\EPWinSock.xml
+\\Vboxsvr\f_drive\SkyDrive\VB2010\Projs\Class Libraries Projs\Sockets\R7\Sockets\OnlineSamples\R0\ClientApp\ClientApp\obj\x86\Debug\ClientApp.Form1.resources
+\\Vboxsvr\f_drive\SkyDrive\VB2010\Projs\Class Libraries Projs\Sockets\R7\Sockets\OnlineSamples\R0\ClientApp\ClientApp\obj\x86\Debug\ClientApp.Resources.resources
+\\Vboxsvr\f_drive\SkyDrive\VB2010\Projs\Class Libraries Projs\Sockets\R7\Sockets\OnlineSamples\R0\ClientApp\ClientApp\obj\x86\Debug\ClientApp.vbproj.GenerateResource.Cache
+C:\Users\WIN7-HOST5\Desktop\EP_WINSOCK_1_12_24_Source_VB\ClientApp\ClientApp\obj\x86\Debug\ClientApp.exe
+C:\Users\WIN7-HOST5\Desktop\EP_WINSOCK_1_12_24_Source_VB\ClientApp\ClientApp\obj\x86\Debug\ClientApp.xml
+C:\Users\WIN7-HOST5\Desktop\EP_WINSOCK_1_12_24_Source_VB\ClientApp\ClientApp\obj\x86\Debug\ClientApp.pdb
+C:\Users\WIN7-HOST5\Desktop\EP_WINSOCK_1_12_24_Source_VB\ClientApp\ClientApp\bin\Debug\ClientApp.exe
+C:\Users\WIN7-HOST5\Desktop\EP_WINSOCK_1_12_24_Source_VB\ClientApp\ClientApp\bin\Debug\ClientApp.pdb
+C:\Users\WIN7-HOST5\Desktop\EP_WINSOCK_1_12_24_Source_VB\ClientApp\ClientApp\bin\Debug\ClientApp.xml
+C:\Users\WIN7-HOST5\Desktop\EP_WINSOCK_1_12_24_Source_VB\ClientApp\ClientApp\bin\Debug\EPWinSock.v4.dll
+C:\Users\WIN7-HOST5\Desktop\EP_WINSOCK_1_12_24_Source_VB\ClientApp\ClientApp\bin\Debug\CODERiT.Logger.v.3.5.dll
+C:\Users\WIN7-HOST5\Desktop\EP_WINSOCK_1_12_24_Source_VB\ClientApp\ClientApp\bin\Debug\EPRO.Library.v4.Shell.dll
+C:\Users\WIN7-HOST5\Desktop\EP_WINSOCK_1_12_24_Source_VB\ClientApp\ClientApp\bin\Debug\EPRO.Library.v3.5.dll
+C:\Users\WIN7-HOST5\Desktop\EP_WINSOCK_1_12_24_Source_VB\ClientApp\ClientApp\bin\Debug\EPRO.Ciphers.v4.Substitutional.dll
+C:\Users\WIN7-HOST5\Desktop\EP_WINSOCK_1_12_24_Source_VB\ClientApp\ClientApp\bin\Debug\EPRO.Library.v3.5.Network.dll
+C:\Users\WIN7-HOST5\Desktop\EP_WINSOCK_1_12_24_Source_VB\ClientApp\ClientApp\bin\Debug\Interop.Shell32.dll
+C:\Users\WIN7-HOST5\Desktop\EP_WINSOCK_1_12_24_Source_VB\ClientApp\ClientApp\bin\Debug\Interop.IWshRuntimeLibrary.dll
+C:\Users\WIN7-HOST5\Desktop\EP_WINSOCK_1_12_24_Source_VB\ClientApp\ClientApp\bin\Debug\EPRO.WaitAsyncMgr.dll
+C:\Users\WIN7-HOST5\Desktop\EP_WINSOCK_1_12_24_Source_VB\ClientApp\ClientApp\bin\Debug\EPWinSock.v4.xml
+C:\Users\WIN7-HOST5\Desktop\EP_WINSOCK_1_12_24_Source_VB\ClientApp\ClientApp\bin\Debug\CODERiT.Logger.v.3.5.xml
+C:\Users\WIN7-HOST5\Desktop\EP_WINSOCK_1_12_24_Source_VB\ClientApp\ClientApp\bin\Debug\EPRO.Library.v4.Shell.xml
+C:\Users\WIN7-HOST5\Desktop\EP_WINSOCK_1_12_24_Source_VB\ClientApp\ClientApp\bin\Debug\EPRO.Library.v3.5.xml
+C:\Users\WIN7-HOST5\Desktop\EP_WINSOCK_1_12_24_Source_VB\ClientApp\ClientApp\bin\Debug\EPRO.Ciphers.v4.Substitutional.xml
+C:\Users\WIN7-HOST5\Desktop\EP_WINSOCK_1_12_24_Source_VB\ClientApp\ClientApp\bin\Debug\EPRO.Library.v3.5.Network.xml
+C:\Users\WIN7-HOST5\Desktop\EP_WINSOCK_1_12_24_Source_VB\ClientApp\ClientApp\obj\x86\Debug\ClientApp.Form1.resources
+C:\Users\WIN7-HOST5\Desktop\EP_WINSOCK_1_12_24_Source_VB\ClientApp\ClientApp\obj\x86\Debug\ClientApp.Resources.resources
+C:\Users\WIN7-HOST5\Desktop\EP_WINSOCK_1_12_24_Source_VB\ClientApp\ClientApp\obj\x86\Debug\ClientApp.vbproj.GenerateResource.Cache
+D:\EP_WINSOCK_1_12_24_Source_VB\EP_WINSOCK_1_12_24_Source_VB\ClientApp\ClientApp\obj\x86\Debug\ClientApp.exe
+D:\EP_WINSOCK_1_12_24_Source_VB\EP_WINSOCK_1_12_24_Source_VB\ClientApp\ClientApp\obj\x86\Debug\ClientApp.xml
+D:\EP_WINSOCK_1_12_24_Source_VB\EP_WINSOCK_1_12_24_Source_VB\ClientApp\ClientApp\obj\x86\Debug\ClientApp.pdb
+D:\EP_WINSOCK_1_12_24_Source_VB\EP_WINSOCK_1_12_24_Source_VB\ClientApp\ClientApp\bin\Debug\ClientApp.exe
+D:\EP_WINSOCK_1_12_24_Source_VB\EP_WINSOCK_1_12_24_Source_VB\ClientApp\ClientApp\bin\Debug\ClientApp.pdb
+D:\EP_WINSOCK_1_12_24_Source_VB\EP_WINSOCK_1_12_24_Source_VB\ClientApp\ClientApp\bin\Debug\ClientApp.xml
+D:\EP_WINSOCK_1_12_24_Source_VB\EP_WINSOCK_1_12_24_Source_VB\ClientApp\ClientApp\bin\Debug\EPWinSock.v4.dll
+D:\EP_WINSOCK_1_12_24_Source_VB\EP_WINSOCK_1_12_24_Source_VB\ClientApp\ClientApp\bin\Debug\CODERiT.Logger.v.3.5.dll
+D:\EP_WINSOCK_1_12_24_Source_VB\EP_WINSOCK_1_12_24_Source_VB\ClientApp\ClientApp\bin\Debug\EPRO.Library.v4.Shell.dll
+D:\EP_WINSOCK_1_12_24_Source_VB\EP_WINSOCK_1_12_24_Source_VB\ClientApp\ClientApp\bin\Debug\EPRO.Library.v3.5.dll
+D:\EP_WINSOCK_1_12_24_Source_VB\EP_WINSOCK_1_12_24_Source_VB\ClientApp\ClientApp\bin\Debug\EPRO.Ciphers.v4.Substitutional.dll
+D:\EP_WINSOCK_1_12_24_Source_VB\EP_WINSOCK_1_12_24_Source_VB\ClientApp\ClientApp\bin\Debug\EPRO.Library.v3.5.Network.dll
+D:\EP_WINSOCK_1_12_24_Source_VB\EP_WINSOCK_1_12_24_Source_VB\ClientApp\ClientApp\bin\Debug\Interop.Shell32.dll
+D:\EP_WINSOCK_1_12_24_Source_VB\EP_WINSOCK_1_12_24_Source_VB\ClientApp\ClientApp\bin\Debug\Interop.IWshRuntimeLibrary.dll
+D:\EP_WINSOCK_1_12_24_Source_VB\EP_WINSOCK_1_12_24_Source_VB\ClientApp\ClientApp\bin\Debug\EPRO.WaitAsyncMgr.dll
+D:\EP_WINSOCK_1_12_24_Source_VB\EP_WINSOCK_1_12_24_Source_VB\ClientApp\ClientApp\bin\Debug\EPWinSock.v4.xml
+D:\EP_WINSOCK_1_12_24_Source_VB\EP_WINSOCK_1_12_24_Source_VB\ClientApp\ClientApp\bin\Debug\CODERiT.Logger.v.3.5.xml
+D:\EP_WINSOCK_1_12_24_Source_VB\EP_WINSOCK_1_12_24_Source_VB\ClientApp\ClientApp\bin\Debug\EPRO.Library.v4.Shell.xml
+D:\EP_WINSOCK_1_12_24_Source_VB\EP_WINSOCK_1_12_24_Source_VB\ClientApp\ClientApp\bin\Debug\EPRO.Library.v3.5.xml
+D:\EP_WINSOCK_1_12_24_Source_VB\EP_WINSOCK_1_12_24_Source_VB\ClientApp\ClientApp\bin\Debug\EPRO.Ciphers.v4.Substitutional.xml
+D:\EP_WINSOCK_1_12_24_Source_VB\EP_WINSOCK_1_12_24_Source_VB\ClientApp\ClientApp\bin\Debug\EPRO.Library.v3.5.Network.xml
+D:\EP_WINSOCK_1_12_24_Source_VB\EP_WINSOCK_1_12_24_Source_VB\ClientApp\ClientApp\obj\x86\Debug\ClientApp.Form1.resources
+D:\EP_WINSOCK_1_12_24_Source_VB\EP_WINSOCK_1_12_24_Source_VB\ClientApp\ClientApp\obj\x86\Debug\ClientApp.Resources.resources
+D:\EP_WINSOCK_1_12_24_Source_VB\EP_WINSOCK_1_12_24_Source_VB\ClientApp\ClientApp\obj\x86\Debug\ClientApp.vbproj.GenerateResource.Cache
+D:\project\chips\client-server-chat-prog\ClientApp\ClientApp\obj\x86\Debug\ClientApp.exe
+D:\project\chips\client-server-chat-prog\ClientApp\ClientApp\obj\x86\Debug\ClientApp.xml
+D:\project\chips\client-server-chat-prog\ClientApp\ClientApp\obj\x86\Debug\ClientApp.pdb
+D:\project\chips\client-server-chat-prog\ClientApp\ClientApp\bin\Debug\ClientApp.exe
+D:\project\chips\client-server-chat-prog\ClientApp\ClientApp\bin\Debug\ClientApp.pdb
+D:\project\chips\client-server-chat-prog\ClientApp\ClientApp\bin\Debug\ClientApp.xml
+D:\project\chips\client-server-chat-prog\ClientApp\ClientApp\bin\Debug\EPWinSock.v4.dll
+D:\project\chips\client-server-chat-prog\ClientApp\ClientApp\bin\Debug\CODERiT.Logger.v.3.5.dll
+D:\project\chips\client-server-chat-prog\ClientApp\ClientApp\bin\Debug\EPRO.Library.v4.Shell.dll
+D:\project\chips\client-server-chat-prog\ClientApp\ClientApp\bin\Debug\EPRO.Library.v3.5.dll
+D:\project\chips\client-server-chat-prog\ClientApp\ClientApp\bin\Debug\EPRO.Ciphers.v4.Substitutional.dll
+D:\project\chips\client-server-chat-prog\ClientApp\ClientApp\bin\Debug\EPRO.Library.v3.5.Network.dll
+D:\project\chips\client-server-chat-prog\ClientApp\ClientApp\bin\Debug\Interop.Shell32.dll
+D:\project\chips\client-server-chat-prog\ClientApp\ClientApp\bin\Debug\Interop.IWshRuntimeLibrary.dll
+D:\project\chips\client-server-chat-prog\ClientApp\ClientApp\bin\Debug\EPRO.WaitAsyncMgr.dll
+D:\project\chips\client-server-chat-prog\ClientApp\ClientApp\bin\Debug\EPWinSock.v4.xml
+D:\project\chips\client-server-chat-prog\ClientApp\ClientApp\bin\Debug\CODERiT.Logger.v.3.5.xml
+D:\project\chips\client-server-chat-prog\ClientApp\ClientApp\bin\Debug\EPRO.Library.v4.Shell.xml
+D:\project\chips\client-server-chat-prog\ClientApp\ClientApp\bin\Debug\EPRO.Library.v3.5.xml
+D:\project\chips\client-server-chat-prog\ClientApp\ClientApp\bin\Debug\EPRO.Ciphers.v4.Substitutional.xml
+D:\project\chips\client-server-chat-prog\ClientApp\ClientApp\bin\Debug\EPRO.Library.v3.5.Network.xml
+D:\project\chips\client-server-chat-prog\ClientApp\ClientApp\obj\x86\Debug\ClientApp.vbprojResolveAssemblyReference.cache
+D:\project\chips\client-server-chat-prog\ClientApp\ClientApp\obj\x86\Debug\ClientApp.Form1.resources
+D:\project\chips\client-server-chat-prog\ClientApp\ClientApp\obj\x86\Debug\ClientApp.Resources.resources
+D:\project\chips\client-server-chat-prog\ClientApp\ClientApp\obj\x86\Debug\ClientApp.vbproj.GenerateResource.Cache
