@@ -79,14 +79,15 @@ Public Class Form1
     Private Function createOnlineList() As String
         Dim sb As New System.Text.StringBuilder()
         Dim themessage As String
-        sb.Append("online;")
+        sb.Append("online")
         For Each user As user In users
             If user.hidden = False Then
+                sb.Append(";")
                 sb.Append(user.username)
             End If
-            themessage = sb.ToString
-            Return themessage
         Next
+        themessage = sb.ToString
+        Return themessage
     End Function
 #Region "Loggings"
 
